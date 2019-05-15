@@ -1,0 +1,226 @@
+[
+    {
+        "end": 183,
+        "start": 177,
+        "text": "5/3/99",
+        "timex-value": "1999-05-03",
+        "type": "DATE",
+        "value": "1999-05-03"
+    },
+    {
+        "end": 4192,
+        "start": 4178,
+        "text": "the first year",
+        "timex-value": "PXY",
+        "type": "DURATION",
+        "value": "PXY"
+    },
+    {
+        "end": 4574,
+        "start": 4565,
+        "text": "A century",
+        "timex-value": "P100Y",
+        "type": "DURATION",
+        "value": "P100Y"
+    },
+    {
+        "end": 4671,
+        "start": 4667,
+        "text": "1300",
+        "timex-value": "1300",
+        "type": "DATE",
+        "value": "1300"
+    },
+    {
+        "end": 4678,
+        "start": 4674,
+        "text": "1400",
+        "timex-value": "1400",
+        "type": "DATE",
+        "value": "1400"
+    },
+    {
+        "end": 5091,
+        "start": 5086,
+        "text": "years",
+        "timex-value": "PXY",
+        "type": "DURATION",
+        "value": "PXY"
+    },
+    {
+        "end": 5221,
+        "start": 5213,
+        "text": "01/01/98",
+        "timex-value": "1998-01-01",
+        "type": "DATE",
+        "value": "1998-01-01"
+    },
+    {
+        "end": 5688,
+        "start": 5665,
+        "text": "at least 50 years later",
+        "timex-value": "2069-05-13",
+        "type": "DATE",
+        "value": "2069-05-13"
+    },
+    {
+        "end": 7276,
+        "start": 7265,
+        "text": "a few years",
+        "timex-value": "PXY",
+        "type": "DURATION",
+        "value": "PXY"
+    },
+    {
+        "end": 7740,
+        "start": 7736,
+        "text": "1500",
+        "timex-value": "1500",
+        "type": "DATE",
+        "value": "1500"
+    },
+    {
+        "end": 7769,
+        "start": 7765,
+        "text": "1850",
+        "timex-value": "1850",
+        "type": "DATE",
+        "value": "1850"
+    },
+    {
+        "end": 8037,
+        "start": 8028,
+        "text": "July 2000",
+        "timex-value": "2000-07",
+        "type": "DATE",
+        "value": "2000-07"
+    },
+    {
+        "end": 9410,
+        "start": 9401,
+        "text": "July 2000",
+        "timex-value": "2000-07",
+        "type": "DATE",
+        "value": "2000-07"
+    },
+    {
+        "end": 12246,
+        "start": 12242,
+        "text": "once",
+        "timex-value": "PAST_REF",
+        "type": "DATE",
+        "value": "PAST_REF"
+    },
+    {
+        "end": 13141,
+        "start": 13133,
+        "text": "a second",
+        "timex-value": "PT1S",
+        "type": "DURATION",
+        "value": "PT1S"
+    },
+    {
+        "end": 16149,
+        "start": 16141,
+        "text": "This may",
+        "timex-value": "2019-05",
+        "type": "DATE",
+        "value": "2019-05"
+    },
+    {
+        "end": 16320,
+        "start": 16312,
+        "text": "the past",
+        "timex-value": "PAST_REF",
+        "type": "DATE",
+        "value": "PAST_REF"
+    },
+    {
+        "end": 16387,
+        "start": 16384,
+        "text": "now",
+        "timex-value": "PRESENT_REF",
+        "type": "DATE",
+        "value": "PRESENT_REF"
+    },
+    {
+        "end": 16631,
+        "start": 16623,
+        "text": "01/01/98",
+        "timex-value": "1998-01-01",
+        "type": "DATE",
+        "value": "1998-01-01"
+    },
+    {
+        "end": 16844,
+        "start": 16837,
+        "text": "Minutes",
+        "timex-value": "PTXM",
+        "type": "DURATION",
+        "value": "PTXM"
+    },
+    {
+        "end": 17416,
+        "start": 17408,
+        "text": "01/01/98",
+        "timex-value": "1998-01-01",
+        "type": "DATE",
+        "value": "1998-01-01"
+    },
+    {
+        "end": 17654,
+        "start": 17648,
+        "text": "Spring",
+        "timex-value": "2019-SP",
+        "type": "DATE",
+        "value": "2019-SP"
+    },
+    {
+        "end": 18097,
+        "start": 18094,
+        "text": "MAY",
+        "timex-value": "2019-05",
+        "type": "DATE",
+        "value": "2019-05"
+    },
+    {
+        "end": 18335,
+        "start": 18327,
+        "text": "THIS MAY",
+        "timex-value": "2019-05",
+        "type": "DATE",
+        "value": "2019-05"
+    },
+    {
+        "end": 18389,
+        "start": 18386,
+        "text": "MAY",
+        "timex-value": "2019-05",
+        "type": "DATE",
+        "value": "2019-05"
+    },
+    {
+        "end": 19858,
+        "start": 19851,
+        "text": "THE DAY",
+        "timex-value": "2019-05-13",
+        "type": "DATE",
+        "value": "2019-05-13"
+    },
+    {
+        "end": 19904,
+        "start": 19901,
+        "text": "MAY",
+        "timex-value": "2019-05",
+        "type": "DATE",
+        "value": "2019-05"
+    },
+    {
+        "end": 20137,
+        "start": 20133,
+        "text": "ONCE",
+        "timex-value": "PAST_REF",
+        "type": "DATE",
+        "value": "PAST_REF"
+    }
+]

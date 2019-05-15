@@ -1,0 +1,1323 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SURVEY OF PRO BINDING STYLES AND MATERIALS
+
+NOTES ON THE
+
+SURVEY OF PRO 
+
+BINDING STYLES
+A:\NOTES\LEVEL1-3.DOC/arc 5/3/99
+CONTENTS
+
+Purpose and Definition
+
+Explanation of Levels
+
+· Level 1
+
+· Level 2
+
+· Level 3
+
+Notes on Completing the Survey
+
+· Level 1
+
+· Level 2
+
+· Level 3
+
+Keywords
+
+Forms
+
+Files and Contents
+
+Styles
+
+Procedures for Completing the Survey 
+PURPOSE AND DEFINITION
+
+The purpose of this survey is to identify and record the styles and materials of bindings, mainly original but also restored, held by the PRO.
+
+Our aim is to identify and describe both individual items and whole classes or groups of particular styles. At the completion of each class all information will be entered on the database. A concise summary will be written detailing types, styles, dates of documents and any features of interest.
+
+Our intention is not to classify every form of protected document, but only those which in their original or restored state conform to the following definition of a binding.
+
+    ‘Bindings are those documents  which are folded and/or sewn and attached to some form of protective cover and bound in the codex form. These do not include single leaves or bundles of papers, original or restored, attached to a folder by stitching, stapling or treasury tag. If, however, there are items which show evidence of binding structure or materials though not technically bound, these will be included.' 
+
+EXPLANATION OF LEVELS
+
+LEVEL 1
+
+All classes are either ‘inclusive’ or ‘exclusive’. ‘Inclusive’ means that all pieces are taken into account. ‘Exclusive’ means that only those Level 1 pieces that are considered interesting are to be recorded. All others can be ignored. Piece numbers not recorded are then classed as uninteresting as opposed to missing. This will only be the case where there is an excessive amount of non-binding material ( parchment of paper documents, seals, etc...). Very few classes will be ‘exclusive’. This can be determined either by checking the information given on RIS or decided at an early stage in the survey itself.
+
+‘Inclusive’ - details of non-binding pieces can be noted in ‘Comments 1’ if they may be of interest to the class.
+
+The material is often similar and will be quite simple to add to the database using the ‘Duplicate’ button.
+
+Example - ‘Folded Documents’ 
+
+‘Exclusive’ - In these cases there are possibly thousands of pieces or ‘sub-pieces’ so only those of selected interest will be noted.
+
+Examples so far -
+
+Petty Bags
+
+Tally Sticks
+
+Hessian bags
+
+Documents stitched between thick vellum 
+
+LEVEL 2
+
+All bindings will be entered in this Level. Either as ‘Binding’ or ‘Conservation Binding’. The latter will include File Cases and Stitched Folders - a brief description may be made in ‘Comments 2’.
+
+LEVEL 3
+
+These bindings are either those in excellent condition, fine examples of their type or those that have significant features which merit more detailed description. They may have had either minimal or very early restoration.
+
+NOTES ON COMPLETING THE SURVEY
+
+LEVEL 1 FORM
+
+GROUP
+Letter Code
+
+· ADM
+
+· E
+
+· WO etc.
+
+CLASS
+Number - using 01 or 001 depending on the size of the class.
+
+SUB-CLASS
+
+Not on the form, but on the database. Very uncommon. No-one really knows what it is.
+
+PIECE
+
+As with CLASS, use a two or three digit number depending on the size of the class - 01 or 001.
+
+Some classes (i.e. E101) have a ‘sub-piece’ number. Indicate this as 001/01 etc...
+
+	Part numbers - Indicate as
+	01Pt.1
+	or (occasionally)
+	01A
+	
+
+	
+	
+	01Pt.2
+	
+	
+	01B
+	
+
+
+If there are several documents under the same piece number indicate as -
+
+01a
+
+01b
+
+01c
+
+01d
+
+This is not a recognised PRO piece number so should not be used when ordering. To order a whole box of documents which may or may not have sub-piece numbers, order, for example, E 101 150/BOX.  
+
+DATE TEXT
+Use Standard Set. There is a complete set in the offices above which may be borrowed.  Enter directly onto the database using ‘Query’ .
+
+Enter the exact date. Regnal dates can be translated using the calendar kept in the Survey File.
+
+If the date is the reign of a monarch (Tempus) enter the first year of reign followed by ‘t’.
+
+Example ‘Tempus Henry VIII’ - 1509t
+
+If the date is somewhat vague enter the first date of the reign of the monarch followed by ‘c’. i.e. Edward III, enter 1327c.
+
+If it doesn’t make any sense enter ‘?’, or a date followed by ‘?’. This can be checked later. 
+
+No date - n.d. 
+
+The database also has a date-range box. Use this for date ranges. 
+
+A century can be recorded in Date of Text and Date Range e.g. 14thc.:
+
+Date of text       Date range
+
+1300
+
+
+1400
+
+To save time, do not record dates for non-bindings unless considered  interesting. 
+
+PIECE TYPE
+
+Description of document.
+
+· Binding ( and will always be Level 2 or 3)
+
+· File Case
+
+· Stitched folder
+
+· Box
+
+· Petty Bag
+
+· Tally Stick
+
+· Document
+
+Or any piece which is ‘out’ or ‘missing’. ‘TS’ - To Survey
+
+· TS:Staff
+
+· TS:Conservation 
+
+· TS:Reader
+
+· TS:Missing
+
+Check the date of any ticket, many are years old.
+
+All safe room documents will be surveyed together later -
+
+enter as TS:Safe Room.
+DATE
+Date of survey. Use formula 01/01/98
+
+The top right hand box can be used to indicate the main category. 
+
+LEVEL 2 
+
+LEVEL 3
+
+Tick if considered suitable for Level 3 and complete the first page of the Level 3 Form instead. 
+
+GROUP, CLASS, PIECE, DATE TEXT and DATE - as Level 1.
+
+DATE BINDING
+
+Contemporary - Use when there is no good reason to suggest that the binding is not contemporary to the text.
+
+Contemporary? - Use when there is good reason to suggest that the binding is at least 50 years later than the text.
+
+Later - Use when it is considered to be the original binding but bound at a much later date than the text, or a rebinding with Rebound in Condition 2.
+
+STYLE
+
+Apart from a few exceptions styles are recorded in types. There is a full list and explanation on page 16. There is also a booklet for each type containing all variations used and a description of each. New styles can be added at any time, using up to six letters and entered in the appropriate booklet.
+Sub divisions of STYLE -
+
+MATERIAL 1: Main material
+
+
+MATERIAL 2: Siding or secondary covering material – any more can be a comment.
+
+COVERING STYLE: e.g. Full; Half, Quarter, Frame, Spine & f.e., or Missing
+
+SECONDARY COVER: Overcover (chemise, envelope, dustjacket – if you want to specify ‘comment’), Overback, Overbands, Overbands & Buckle, Underbands, Undercover (hubs). 
+
+BOARDS : Used to be only at level 3 i.e. Binder’s board, Limp, Wood oak, Wood unknown. 
+CONDITION 
+
+TEXT: SEWING: SPINE: COVER/BOARDS:
+
+Excellent - Functions as intended. Has little wear and tear. 
+
+Average - Functions well. Has damage and wear commensurate to its age. 
+
+Poor - Broken or extremely weak and/or damaged. 
+
+REPAIRS
+
+Earlier repairs to the binding.
+
+Restored Minimal - Superficial. Non-structural.
+
+Restored - Rebacked. Structural.
+
+Rebound - Resewn, recovered or completely rebound.
+
+PROBLEMS WITH COMBINATIONS
+
+Contemporary - Average - Restored
+Binding fundamentally original, in average condition due to restoration or not, and has been restored.
+
+Contemporary - Average - Rebound. Rebound, but within a few years of the original. Highly unlikely.
+
+Later - Average - Minimally Restored. The first binding, much later than the text, in average condition, with slight restoration.
+Later - Average - Restored
+
+The first binding, much later than the text, in average condition, with major restoration work.
+
+Later - Average - Rebound
+
+Not the original binding, in average condition. Possibly not even in the original style, Use Comments 2 to explain.
+
+ANOMALIES
+
+Pch. Ms. of c.1500 bound in full leather c.1850, subsequently rebacked.
+
+Enter - Later - Average - Rebound and note the reback in Comments 2.
+
+SECTIONS
+
+Multi- or Single Section.  
+
+ONE OF MANY
+
+Use to indicate why a volume in excellent condition has not been put in Level 3. As yet unused. Not used since July 2000, but remains on the Table.
+
+ILLUS.
+
+Drawing; Tracing; Photograph
+
+Drawing . These are kept in the Survey File.
+
+Tracing. These are kept in the Survey File.
+
+CROSS REF.
+
+Use to indicate any volume which appears to be related in some way which may not be apparent from the details entered. 
+
+Example - E 101 426/05 & E 101 426/06
+
+COMMENTS
+
+Use keywords if possible. Keywords & phrases used earlier will be listed in the big file & the red card box & on the database.  If an earlier keyword or term is not appropriate the new term should be listed & described in the red card box. It may need cross referencing to a similar term, then added to the keywords list on the database by AC or PR.  In the comment try to use a qualifying word as well e.g. lining, support, board, siding, skin etc. 
+
+All pieces will be called up with Comments but Comments will also be used to extract data about bindings which did not reach Level 3. Use Comments to avoid going on to Level 3. There is a list of Keywords later. Use a semi-colon between entries. 
+
+Comments are subjective & not all instances need to be recorded, they can be a guide to an example & show which class is likely to have more instances. Write comments down in the order a book is bound. 
+
+NO. of COPIES
+
+Use when there is more than one copy of exactly the same binding with the same reference. Not used since July 2000 but remains on the Table.
+
+INPUT
+
+Tick when entered in the database.
+
+COMPLETE 
+
+Tick when all information is entered including the Text Date.
+
+LEVEL 3 FORM
+
+This form is combined with Level 2 as all data on Level 3 pieces will be collected and entered together.
+
+The form consists of  thirteen subject headings -
+
+	1
+	COVERING
+
+	2
+	BOARDS
+
+	3
+	TEXT MATERIAL
+
+	4
+	DECORATION
+
+	5
+	FASTENINGS, FURNITURE AND FEATURES
+
+	6
+	LACING
+
+	7
+	SEWING
+
+	8
+	ENDPAPERS
+
+	9
+	ENDBANDS
+
+	10
+	CONDITION BINDING
+
+	11
+	CONDITION TEXT
+
+	12
+	TITLE
+
+	13
+	COMMENTS
+
+
+Headings 1-11 are mainly divided into fields containing a list-box field or tick-box field (except 10.1 BINDING which is a text-box). A list-box field, designated by an open vertical column may only contain one entry. Whereas a tick-box field, which has a series of small closed boxes, can contain as many entries as required.
+
+Headings 12 and 13 are text-boxes. These can be used for free text.
+
+All fields which are relevant to the binding should be completed.
+
+The Style Manual contains further information on the entry headings.
+
+NOTES
+
+1.5 COLOUR
+
+Natural - Use for unstained vellum bindings.
+
+1.8 UNDERCOVER
+
+Only for full leather bindings with vellum slips (FLVS).
+
+2.1 BOARDS
+
+Millboard - i.e. board.
+
+6.0 LACING
+
+Only for Account books.
+
+7.2 STATIONS
+
+No. / Tackets - Total number, but excluding kettles.
+
+8.3 ATTACHMENT
+
+LIFTED - Originally pasted.
+
+10.1 BINDING. This is a text box for a brief description of the binding condition to supplement the information already entered.  
+
+KEYWORDS
+
+COMMENTS 
+
+	ID
+	Keywords
+	Definition
+
+	1
+	Bevelled boards
+	
+
+	2
+	Binder’s board
+	any type of paper fibre board
+
+	3
+	Binders Label
+	
+
+	4
+	Binding Evidence
+	BEV
+
+	5
+	Black Letter Manuscript
+	
+
+	17
+	Bled
+	an edge that has been trimmed through the text; see also cropped.
+
+	6
+	Blind Stamped Tooling
+	
+
+	7
+	Blue Paper Cover
+	
+
+	8
+	Boards
+	
+
+	9
+	Brown Laminate boards
+	
+
+	10
+	Common account
+	a springback without hooked edges & the cover drawn on
+
+	11
+	Concave spine
+	
+
+	12
+	Conservation documentation
+	
+
+	13
+	Cord over parchment over tawed over tawed
+	arrangement of sewing supports
+
+	14
+	Couched board
+	
+
+	15
+	Cover
+	
+
+	16
+	Cropped
+	an edge that has been over trimmed; see also bled
+
+	18
+	Cross ref
+	
+
+	19
+	Decorative stamp gilt
+	
+
+	20
+	Detached cover
+	disbound boards
+
+	21
+	Dust jacket
+	see also Envelope, chemise
+
+	22
+	Dutch Gilt Paper
+	
+
+	111
+	Endleaves
+	see also Endpapers
+
+	23
+	Engraved hasp clasp
+	
+
+	24
+	Envelope
+	see also Dust jacket
+
+	25
+	Exhibitable
+	a good example of a binding style
+
+	26
+	Fillet lines gilt
+	tooling
+
+	27
+	Finishing
+	see also Tooling
+
+	28
+	Flat vellum support
+	see also Flat supports; Vellum slips
+
+	29
+	Flesh side out
+	see also Reverse calf; suede; chamois
+
+	30
+	Fore edge flap
+	
+
+	31
+	Furniture
+	
+
+	32
+	Graffiti
+	on cover, inside or out
+
+	33
+	Green vellum
+	was once part of the style
+
+	34
+	Half bands
+	single bands between double raised bands
+
+	35
+	Hessian sack
+	
+
+	36
+	Illuminated parchment manuscirpt
+	
+
+	37
+	Indentured boards
+	wavy topped boards
+
+	38
+	Index tags handwritten decorated
+	
+
+	39
+	Insert
+	another binding inside e.g. a single section index in an account book
+
+	40
+	Iron gall ink
+	
+
+	41
+	Islamic style
+	
+
+	42
+	Joint
+	
+
+	43
+	Label lether gilt
+	on spine or cover
+
+	44
+	Laced case
+	see also Slips through cover joint
+
+	49
+	Letter book
+	a bound book of letters, e.g. overcast or sewn as single folds
+
+	50
+	Lined vellum
+	
+
+	51
+	Linings
+	see also transverse, panel, patch, full, comb etc.
+
+	52
+	Marbled ends
+	endpapers
+
+	53
+	Marbled sides
+	
+
+	82
+	No slips through the cover joint
+	used for stiff board vellum books which could be case or ?Slips pasted to boards?
+
+	54
+	Overcover
+	Often on stiff vellum the second cover is leather pased down as a second cover
+
+	55
+	P Ms.
+	paper manuscript
+
+	62
+	Pacht. Cover
+	parchment coverf
+
+	57
+	Panel
+	spine decoration
+
+	56
+	Panel linings
+	
+
+	45
+	Paper Wrapper
+	a simple wrapper or batter
+
+	58
+	Parchment reinforcements to sections
+	stays see C. Clarkson's note in large file
+
+	47
+	Parchment wrapper
+	
+
+	59
+	Pastedowns
+	see also board papers; wraparound
+
+	60
+	Pastedowns
+	see also under pastedowns
+
+	61
+	Pch. Ms
+	parchment manuscript
+
+	63
+	Petty bag
+	
+
+	64
+	Phase boxed
+	
+
+	65
+	Photographable
+	
+
+	66
+	Pin holes in supports
+	pin holes used to hold suppors in place for sewing
+
+	67
+	Pricked paper repairs
+	old repair
+
+	68
+	Published ref
+	
+
+	69
+	Recessed sewing
+	see also sewing
+
+	70
+	Red & Blue capitals
+	initials
+
+	72
+	Repaired
+	
+
+	71
+	Repaired 00/00/00
+	
+
+	73
+	Restoration
+	
+
+	74
+	Section cut from volume
+	occasional runs of such pieces in E 101
+
+	75
+	Semi-limp boards
+	
+
+	76
+	Sewing supports
+	see also Cord over parchment over tawed over tawed;Tawed skin beside cord
+
+	77
+	Sidings
+	
+
+	78
+	Silk interleaves
+	used over illuminations
+
+	79
+	Silk ties
+	
+
+	80
+	Slipcase
+	
+
+	112
+	Slips
+	see also Laced case; Laced through joints
+
+	81
+	Slips through the cover joint
+	laced case
+
+	83
+	Sponged edge
+	
+
+	84
+	Sprinkled edge
+	
+
+	85
+	Sprinkled gilt endleaves
+	
+
+	86
+	Stiff leaf
+	1st leaf of textblock pasted to last of endpaper i.e. a/c
+
+	89
+	Stitched folder
+	manilla or other simple conservation folder
+
+	87
+	Stitched turn-ins
+	see also vellum laced turn-ins
+
+	88
+	Stitching -: Zig zag on turn-ins
+	vellum turn-ins sewn
+
+	90
+	Strips of marble
+	used as siding or endpapers
+
+	91
+	Structural interest
+	
+
+	92
+	Stub under pastedown
+	torn or cut stubs as under pastedown
+
+	93
+	Support
+	sewing support e.g. tawed thong or cord
+
+	94
+	Tacket Ends Tucked In
+	the ends of the tacket are tucked back into the cover
+
+	95
+	Tally sticks
+	
+
+	97
+	Tawed skin beside cord
+	arrangement of sewing supports
+
+	96
+	Tawed ties two hole method
+	see C. Clarkson
+
+	98
+	Text block pastedowns
+	where endpaper is part of the textblock
+
+	99
+	Thick volume
+	relatively
+
+	100
+	Thongs
+	
+
+	101
+	Ties
+	Ties: fabric, leather, tawed or silk
+
+	102
+	Tongue Corners
+	
+
+	103
+	Transverse linings
+	linings across the joint
+
+	104
+	Trimmed
+	
+
+	105
+	Under pastedown
+	paper or parchment laid under the pastedown, often as a stub. See also stub
+
+	106
+	Unfit
+	
+
+	107
+	Vellum cover repairs
+	see also Cross-stitch repair to spine; Stitched patch; Patch
+
+	108
+	Vellum Laced Turn-ins
+	
+
+	48
+	Vellum wrapper
+	
+
+	109
+	Wraparound Endleaves/pastedowns
+	-endleaves run continuously from right to left board across the spine.
+
+	46
+	Wrapper
+	
+
+	110
+	Zoomorphic initials
+	e.g. E403/0521
+
+
+FORMS
+
+The following forms are located in the SURVEY FILE.
+
+WORK RECORD
+
+This is to record the start and end of each survey session, so we know where to start from next time.
+
+DOCUMENTS TO ORDER
+
+All documents ordered should be recorded on this form and the reason given - photograph, Level 3 etc.
+
+DOCUMENTS TO CHECK
+
+This is to record any problems, unidentified styles etc.
+
+DOCUMENTS TO PHOTOGRAPH
+
+This may not happen for a while but this is to keep a list of pieces worth photographing.
+
+DOCUMENTS TO RE-BOX
+
+These could be either items which have been badly boxed in the past and should be re-boxed, or items which we have phase-boxed and now need larger boxes.
+
+DOCUMENTS TO PHASE-BOX
+
+This is to record all pieces phase-boxed as a result of the Survey.  
+
+FIELDS ADDED
+
+FIElLDS DELETED
+
+FILES AND CONTENTS
+
+The following is a complete list of all the files and contents as of 01/01/98.
+
+SURVEY FILE
+
+· Documents to Order.
+
+· Documents to Check.
+
+· Documents to Photograph.
+
+· Documents to Re-box.
+
+· Documents to Phase-Box.
+
+· Keywords. (Ongoing).
+
+· Regnal Dates.
+
+· All RIS Printouts.
+
+· Minutes.
+
+· Tracings.
+
+· Drawings.
+
+· Classes to Survey.
+
+LEVEL 1 &2
+
+Blank Level 1 & 2 Forms.
+
+LEVEL 3
+
+Blank Level 3 Forms.
+
+Completed forms to enter and those entered.
+
+E 101
+
+All information regarding this class.
+
+CLASSES SURVEYED
+
+Contains details on classes surveyed so far.
+
+SAFE ROOM
+
+Details of safe room documents.
+
+HISTORICAL INFORMATION - ARTICLES
+
+Copies of articles which may be relevant to the Survey. Ongoing.
+
+STYLE MANUAL
+
+Collection of explanations, photographs etc. to help identify bindings. Ongoing.
+
+STYLES
+
+The following is a list of Types. As of 01/01/98.
+
+	FC
+	Full Cloth
+
+	HC
+	Half Cloth
+
+	QC
+	Quarter Cloth
+
+	FL
+	Full Leather
+
+	HL
+	Half Leather
+
+	QL
+	Quarter Leather
+
+	LV
+	Limp Vellum
+
+	FV
+	Full Vellum
+
+	LS
+	Library Style
+
+	SS
+	Simple sewn
+
+	LL
+	Limp Leather
+
+	LP
+	Limp Paper
+
+	SB
+	Spring Back
+
+	HV
+	Half Vellum
+
+	CB
+	Case binding
+
+	
+
+	
+	
+
+	
+	
+
+	The following are Type only and have no evolving styles.  
+
+	BEV
+	Binding Evidence
+
+	BOX
+	Box
+
+	CURIO
+	Curiosity
+
+	SSR
+	 Stab Sewn Roll
+
+	SPS
+	Sewn Parchment Sections
+
+	SPPS
+	Sewn Paper Sections
+
+	MG
+	Manila Guard
+
+	FILE
+	File case
+
+	SF
+	Stitched folder
+
+	
+	
+
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+
+PROCEDURES FOR COMPLETINGTHE SURVEY
+
+	1
+	SELECT CLASS TO BE SURVEYED OR WHEREVER.
+
+	
+	
+
+	2
+	THERE MAY BE SEVERAL LOCATIONS FOR ONE CLASS.
+
+	
+	
+
+	3
+	COLLECT PROXIMITY CARD FROM SECURITY OFFICE IN
+
+	
+	KEW 2. 
+
+	
+	
+
+	5
+	AT THE START OF THE CLASS A DECISION MUST BE TAKEN AS
+
+	
+	TO WHETHER THE CLASS IS 'INCLUSIVE' OR 'EXCLUSIVE'.
+
+	
+	THIS MAY ENTAIL LOOKING THROUGH SEVERAL BOXES FIRST
+
+	
+	OR MAY BE OBVIOUS FROM THE DETAILS ON DORIS. 
+
+	
+	
+
+	
+	
+
+	RECORDING THE DATA USING THE LEVEL ONE AND LEVEL TWO INPUT FORM
+
+	
+	
+
+	6
+	ENTER THE CLASS & LOCATION ON THE WORK RECORD IN THE SURVEY FILE. 
+
+	
+	
+
+	7
+	DECIDE WHETHER THE PIECE IS LEVEL ONE OR LEVEL TWO.
+
+	
+	
+
+	
+	LEVEL ONE
+
+	8
+	· IF THE CLASS IS INCLUSIVE, ENTER THE PIECE NUMBER ON 
+
+	
+	A DATED FORM. GIVE A BRIEF DESCRIPTION IN
+
+	
+	COMMENTS 1 IF APPROPRIATE. ENTER GROUP AND CLASS  
+
+	
+	NUMBER AT HEAD OF SHEET. CONTINUE TO NEXT PIECE.
+
+	 
+	
+
+	9
+	· IF THE CLASS IS EXCLUSIVE, IGNORE THE PIECE UNLESS IT  
+
+	
+	IS CONSIDERED USEFUL OR APPROPRIATE TO RECORD.
+
+	
+	E.G. E 101 -  PETTY BAGS, STITCHED FOLDERS, TALLY
+
+	
+	STICKS.
+
+	
+	
+
+	
+	LEVEL TWO
+
+	
+	
+
+	10
+	ENTER PIECE NUMBER AND GROUP / CLASS.
+
+	
+	 
+
+	11
+	IGNORE DATE TEXT - THIS WILL BE ENTERED FROM THE 
+
+	
+	COMPUTER CATALOGUE.
+
+	
+	
+
+	12
+	DATE BINDING - CONTEMPORARY
+
+	
+	                             CONTEMPORARY?
+
+	
+	                             LATER
+
+	
+	
+
+	13
+	ENTER STYLE - USE ABBREVIATION.
+
+	
+	CHECK IN THE EXPLANATIONS OF STYLES.  
+
+	
+	
+
+	14
+	ENTER CONDITIONS
+
+	
+	
+
+	15
+	ENTER REPAIRS  IF APPROPRIATE
+
+	
+	
+
+	16
+	TICK ILLUS. IF APPROPRIATE. DRAWING AND TRACINGS
+
+	
+	ARE KEPT IN THE SURVEY FILE.
+
+	
+	
+
+	17
+	USE COMMENTS TO DESCRIBE ANY INTERESTING/UNUSUAL
+
+	
+	FEATURES. USE A SEMI-COLON BETWEEN ENTRIES.
+
+	
+	SEE KEYWORDS.   
+
+	
+	
+
+	18
+	TICK THE INPUT BOX AS EACH PIECE IS ENTERED.   
+
+	
+	
+
+	ENTERING DATA ON THE DATA BASE
+
+	
+	
+
+	19
+	THIS SHOULD BE DONE ON THE DAY OF THE SURVEY.
+
+	
+	OTHERWISE, INFORMATION MAY BE FORGOTTEN OR
+
+	
+	CONFUSED.
+
+	
+	
+
+	20
+	OPEN INTERNET EXPLORER & GET DATES FROM CATALOGUE
+
+	
+	
+
+	23
+	OPEN DATABSE ENTER DATA USING 'DUPLICATE BUTTON' TO SAVE TIME.
+
+	24
+	REMEMBER TO CLICK ON LEVEL 2 OR LEVEL 3 BUTTONS.
+
+
+
+	25
+	ONCE ENTERED, GO TO SURVEY DATE QUERY AND CLEAN UP
+
+	
+	ANY DOUBLE ENTRIES, OR MISTAKES.
+
+
+PAGE  
+19
+

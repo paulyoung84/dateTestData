@@ -1,0 +1,490 @@
+[
+    {
+        "end": 386,
+        "start": 370,
+        "text": "12 November 2003",
+        "timex-value": "2003-11-12",
+        "type": "DATE",
+        "value": "2003-11-12"
+    },
+    {
+        "end": 416,
+        "start": 412,
+        "text": "2003",
+        "timex-value": "2003",
+        "type": "DATE",
+        "value": "2003"
+    },
+    {
+        "end": 1429,
+        "start": 1425,
+        "text": "2002",
+        "timex-value": "2002",
+        "type": "DATE",
+        "value": "2002"
+    },
+    {
+        "end": 1460,
+        "start": 1450,
+        "text": "April 2003",
+        "timex-value": "2003-04",
+        "type": "DATE",
+        "value": "2003-04"
+    },
+    {
+        "end": 2147,
+        "start": 2134,
+        "text": "December 2003",
+        "timex-value": "2003-12",
+        "type": "DATE",
+        "value": "2003-12"
+    },
+    {
+        "end": 2179,
+        "start": 2168,
+        "text": "nine months",
+        "timex-value": "P9M",
+        "type": "DURATION",
+        "value": "P9M"
+    },
+    {
+        "end": 2228,
+        "start": 2218,
+        "text": "the future",
+        "timex-value": "FUTURE_REF",
+        "type": "DATE",
+        "value": "FUTURE_REF"
+    },
+    {
+        "end": 4339,
+        "start": 4335,
+        "text": "once",
+        "timex-value": "PAST_REF",
+        "type": "DATE",
+        "value": "PAST_REF"
+    },
+    {
+        "end": 7183,
+        "start": 7173,
+        "text": "previously",
+        "timex-value": "PAST_REF",
+        "type": "DATE",
+        "value": "PAST_REF"
+    },
+    {
+        "end": 7463,
+        "start": 7453,
+        "text": "previously",
+        "timex-value": "PAST_REF",
+        "type": "DATE",
+        "value": "PAST_REF"
+    },
+    {
+        "end": 9370,
+        "start": 9360,
+        "text": "2003-12-11",
+        "timex-value": "2003-12-11",
+        "type": "DATE",
+        "value": "2003-12-11"
+    },
+    {
+        "end": 9620,
+        "start": 9610,
+        "text": "2003-12-11",
+        "timex-value": "2003-12-11",
+        "type": "DATE",
+        "value": "2003-12-11"
+    },
+    {
+        "end": 9911,
+        "start": 9901,
+        "text": "2003-12-11",
+        "timex-value": "2003-12-11",
+        "type": "DATE",
+        "value": "2003-12-11"
+    },
+    {
+        "end": 10169,
+        "start": 10159,
+        "text": "2003-12-11",
+        "timex-value": "2003-12-11",
+        "type": "DATE",
+        "value": "2003-12-11"
+    },
+    {
+        "end": 12205,
+        "start": 12195,
+        "text": "2003-11-05",
+        "timex-value": "2003-11-05",
+        "type": "DATE",
+        "value": "2003-11-05"
+    },
+    {
+        "end": 13284,
+        "start": 13277,
+        "text": "30 year",
+        "timex-value": "P30Y",
+        "type": "DURATION",
+        "value": "P30Y"
+    },
+    {
+        "end": 13669,
+        "start": 13665,
+        "text": "days",
+        "timex-value": "PXD",
+        "type": "DURATION",
+        "value": "PXD"
+    },
+    {
+        "end": 15232,
+        "start": 15222,
+        "text": "2003-11-05",
+        "timex-value": "2003-11-05",
+        "type": "DATE",
+        "value": "2003-11-05"
+    },
+    {
+        "end": 16302,
+        "start": 16292,
+        "text": "2003-11-11",
+        "timex-value": "2003-11-11",
+        "type": "DATE",
+        "value": "2003-11-11"
+    },
+    {
+        "end": 18193,
+        "start": 18183,
+        "text": "2003-11-05",
+        "timex-value": "2003-11-05",
+        "type": "DATE",
+        "value": "2003-11-05"
+    },
+    {
+        "end": 19200,
+        "start": 19193,
+        "text": "current",
+        "timex-value": "PRESENT_REF",
+        "type": "DATE",
+        "value": "PRESENT_REF"
+    },
+    {
+        "end": 21292,
+        "start": 21282,
+        "text": "previously",
+        "timex-value": "PAST_REF",
+        "type": "DATE",
+        "value": "PAST_REF"
+    },
+    {
+        "end": 21572,
+        "start": 21562,
+        "text": "previously",
+        "timex-value": "PAST_REF",
+        "type": "DATE",
+        "value": "PAST_REF"
+    },
+    {
+        "end": 22200,
+        "start": 22194,
+        "text": "Sunday",
+        "timex-value": "2019-05-12",
+        "type": "DATE",
+        "value": "2019-05-12"
+    },
+    {
+        "end": 23403,
+        "start": 23393,
+        "text": "2003-12-11",
+        "timex-value": "2003-12-11",
+        "type": "DATE",
+        "value": "2003-12-11"
+    },
+    {
+        "end": 23642,
+        "start": 23632,
+        "text": "2003-12-11",
+        "timex-value": "2003-12-11",
+        "type": "DATE",
+        "value": "2003-12-11"
+    },
+    {
+        "end": 23878,
+        "start": 23868,
+        "text": "2003-12-11",
+        "timex-value": "2003-12-11",
+        "type": "DATE",
+        "value": "2003-12-11"
+    },
+    {
+        "end": 24592,
+        "start": 24582,
+        "text": "previously",
+        "timex-value": "PAST_REF",
+        "type": "DATE",
+        "value": "PAST_REF"
+    },
+    {
+        "end": 25525,
+        "start": 25518,
+        "text": "Current",
+        "timex-value": "PRESENT_REF",
+        "type": "DATE",
+        "value": "PRESENT_REF"
+    },
+    {
+        "end": 26064,
+        "start": 26060,
+        "text": "days",
+        "timex-value": "PXD",
+        "type": "DURATION",
+        "value": "PXD"
+    },
+    {
+        "end": 26264,
+        "start": 26254,
+        "text": "2003-11-05",
+        "timex-value": "2003-11-05",
+        "type": "DATE",
+        "value": "2003-11-05"
+    },
+    {
+        "end": 26558,
+        "start": 26551,
+        "text": "current",
+        "timex-value": "PRESENT_REF",
+        "type": "DATE",
+        "value": "PRESENT_REF"
+    },
+    {
+        "end": 28130,
+        "start": 28123,
+        "text": "current",
+        "timex-value": "PRESENT_REF",
+        "type": "DATE",
+        "value": "PRESENT_REF"
+    },
+    {
+        "end": 28229,
+        "start": 28222,
+        "text": "Current",
+        "timex-value": "PRESENT_REF",
+        "type": "DATE",
+        "value": "PRESENT_REF"
+    },
+    {
+        "end": 28532,
+        "start": 28528,
+        "text": "2000",
+        "timex-value": "2000",
+        "type": "DATE",
+        "value": "2000"
+    },
+    {
+        "end": 28566,
+        "start": 28562,
+        "text": "2000",
+        "timex-value": "2000",
+        "type": "DATE",
+        "value": "2000"
+    },
+    {
+        "end": 29740,
+        "start": 29730,
+        "text": "2003-11-05",
+        "timex-value": "2003-11-05",
+        "type": "DATE",
+        "value": "2003-11-05"
+    },
+    {
+        "end": 30851,
+        "start": 30844,
+        "text": "current",
+        "timex-value": "PRESENT_REF",
+        "type": "DATE",
+        "value": "PRESENT_REF"
+    },
+    {
+        "end": 34363,
+        "start": 34359,
+        "text": "2002",
+        "timex-value": "2002",
+        "type": "DATE",
+        "value": "2002"
+    },
+    {
+        "end": 35269,
+        "start": 35265,
+        "text": "1700",
+        "timex-value": "1700",
+        "type": "DATE",
+        "value": "1700"
+    },
+    {
+        "end": 37734,
+        "start": 37730,
+        "text": "2000",
+        "timex-value": "2000",
+        "type": "DATE",
+        "value": "2000"
+    },
+    {
+        "end": 38530,
+        "start": 38514,
+        "text": "2003-12-05T09:17",
+        "timex-value": "2003-12-05T09:17",
+        "type": "TIME",
+        "value": "2003-12-05T09:17"
+    },
+    {
+        "end": 39193,
+        "start": 39187,
+        "text": "Summer",
+        "timex-value": "2019-SU",
+        "type": "DATE",
+        "value": "2019-SU"
+    },
+    {
+        "end": 39436,
+        "start": 39432,
+        "text": "1321",
+        "timex-value": "1321",
+        "type": "DATE",
+        "value": "1321"
+    },
+    {
+        "end": 39487,
+        "start": 39483,
+        "text": "1992",
+        "timex-value": "1992",
+        "type": "DATE",
+        "value": "1992"
+    },
+    {
+        "end": 39686,
+        "start": 39670,
+        "text": "2003-11-05T17:23",
+        "timex-value": "2003-11-05T17:23",
+        "type": "TIME",
+        "value": "2003-11-05T17:23"
+    },
+    {
+        "end": 41205,
+        "start": 41189,
+        "text": "2003-12-11T12:07",
+        "timex-value": "2003-12-11T12:07",
+        "type": "TIME",
+        "value": "2003-12-11T12:07"
+    },
+    {
+        "end": 43057,
+        "start": 43053,
+        "text": "2002",
+        "timex-value": "2002",
+        "type": "DATE",
+        "value": "2002"
+    },
+    {
+        "end": 43237,
+        "start": 43221,
+        "text": "12 December 2003",
+        "timex-value": "2003-12-12",
+        "type": "DATE",
+        "value": "2003-12-12"
+    },
+    {
+        "end": 43270,
+        "start": 43266,
+        "text": "2000",
+        "timex-value": "2000",
+        "type": "DATE",
+        "value": "2000"
+    },
+    {
+        "end": 43450,
+        "start": 43434,
+        "text": "12 December 2003",
+        "timex-value": "2003-12-12",
+        "type": "DATE",
+        "value": "2003-12-12"
+    },
+    {
+        "end": 43497,
+        "start": 43493,
+        "text": "1999",
+        "timex-value": "1999",
+        "type": "DATE",
+        "value": "1999"
+    },
+    {
+        "end": 43658,
+        "start": 43642,
+        "text": "12 December 2003",
+        "timex-value": "2003-12-12",
+        "type": "DATE",
+        "value": "2003-12-12"
+    },
+    {
+        "end": 43731,
+        "start": 43727,
+        "text": "2003",
+        "timex-value": "2003",
+        "type": "DATE",
+        "value": "2003"
+    },
+    {
+        "end": 43887,
+        "start": 43871,
+        "text": "12 December 2003",
+        "timex-value": "2003-12-12",
+        "type": "DATE",
+        "value": "2003-12-12"
+    },
+    {
+        "end": 43930,
+        "start": 43926,
+        "text": "2000",
+        "timex-value": "2000",
+        "type": "DATE",
+        "value": "2000"
+    },
+    {
+        "end": 44062,
+        "start": 44046,
+        "text": "12 December 2003",
+        "timex-value": "2003-12-12",
+        "type": "DATE",
+        "value": "2003-12-12"
+    },
+    {
+        "end": 44128,
+        "start": 44124,
+        "text": "2002",
+        "timex-value": "2002",
+        "type": "DATE",
+        "value": "2002"
+    },
+    {
+        "end": 44369,
+        "start": 44353,
+        "text": "12 December 2003",
+        "timex-value": "2003-12-12",
+        "type": "DATE",
+        "value": "2003-12-12"
+    },
+    {
+        "end": 44412,
+        "start": 44408,
+        "text": "2003",
+        "timex-value": "2003",
+        "type": "DATE",
+        "value": "2003"
+    },
+    {
+        "end": 44576,
+        "start": 44560,
+        "text": "12 December 2003",
+        "timex-value": "2003-12-12",
+        "type": "DATE",
+        "value": "2003-12-12"
+    }
+]

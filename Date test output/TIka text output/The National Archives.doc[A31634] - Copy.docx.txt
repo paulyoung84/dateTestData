@@ -1,0 +1,649 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                              
+
+                                                              
+
+
+                                                                                                                                                                                                                            
+
+
+
+
+The National Archives
+
+
+Guidelines for the Conservation of Paper Manuscripts
+
+
+(Draft1)
+
+
+
+                                                                                                                 September 2003
+
+
+
+
+
+
+
+
+
+These guidelines are to be used in conjunction with BS 4971 ‘Repair and Allied Processes for the Conservation of Documents’.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONTENTS
+
+
+
+1.   Ethics
+
+2.   Numbering, stamping, formats etc.
+          2.1    Purpose
+          2.2    Guidelines/procedures
+          2.3    Location
+          2.4    Formats
+          2.5    Missing on documents prior to transfer
+          2.6    Missing documents after transfer
+          2.7    Missed Numbers
+          2.8    Missed Document
+          2.9    Cancelling a Number
+          2.10  Extracts
+          2.11  Stamping
+            
+3.   Materials used for the treatment of paper manuscripts: standards 
+3.1   Papers
+3.2   Mechanical cleaning
+3.3   Adhesives/Consolidants/Sizes 
+3.4   Chemical Solvents
+3.5  Guidelines
+3.6   Plastic Films
+  3.6  Tapes, threads and cords 
+
+4.   Treatments: Mechanical cleaning
+4.1 Purpose
+4.2 Special considerations 
+4.3 Guidelines 
+
+5.  Treatments: Paper washing and drying
+5.1 Purpose
+5.2 Special considerations 
+5.3 Guidelines 
+
+1.  Treatment: Re- Sizing	
+6.1 Purpose
+6.2 Special considerations 
+6.3 Guidelines 
+
+
+7.  Treatments: De-acidification 
+          7.1 Purpose
+7.2 Special considerations 
+7.3 Guidelines 
+7.4 Choice of De-acidifying Agent
+
+8.  Consolidation and fixing
+          8.1 Purpose
+8.2 Special considerations 
+8.3 Guidelines 
+
+9.  Repair
+           8.1 Purpose
+8.2 Special considerations 
+8.3 Guidelines 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.  Ethics
+
+
+· All treatments, including any materials used should be fully documented.
+· Any treatment should be considered in the light of the of the item(s), condition, expected use and intrinsic value. 
+· The integrity of the document should be retained as an historical artefact and as a carrier of information. 
+· Only the minimum amount of treatment should be carried out to ensure the item can be handled safely and preserved for the future. Repairs should be detectable, sympathetic, and should not obscure or diminish the image.
+· The intention of any conservation treatment should be such that future treatment is not precluded, although exceptions to this can be made when deterioration is so extreme that removal of the repair may cause further loss or damage.
+· All materials used must be of an acceptable conservation standard and compatible with all elements of the document both in the short- and long-term.
+· No attempt should be made to enhance or fabricate the text or image.
+· Existing repairs should be retained unless they are disfiguring, causing mechanical or chemical damage, or their removal is necessary for treatment. All repairs should be recorded if they are to be removed.
+· Original formats should be retained as much as possible. Any alterations should be justified and recorded.
+· Removal or retention of blank sheets is discretionary but removal must be justified and documented. 
+· The blank half of a folio must not be discarded.
+
+· All storage materials (boxes, wrapping, enclosures, etc.) should be appropriate in terms of strength, size, and material, and should physically protect the item and provide a buffer against environmental hazards.
+· No unsupervised work should be undertaken without adequate experience and ability.
+
+
+
+
+
+2. Numbering, Stamping, Formats etc.
+
+
+2.1 Purpose
+Manuscripts in The National Archives (TNA) are:
+
+· numbered to ensure that they are kept in the correct order.
+ 
+and
+
+· stamped using the TNA stamp for security purposes
+
+2.2 Guidelines/procedures
+· establish that numbering is necessary before carrying out any necessary treatment
+· establish that the documents are in order before numbering. Seek specialist advice if necessary.
+· temporary pencil numbering should not be used if the document is to undergo aqueous treatment since this will fix the graphite to the paper.
+· ascertain before discarding blank sheet/s  whether there is any faded  text that could be visible under UV light.
+· if the document does not already carry a visible TNA stamp this should be added after treatment 
+· do not number or stamp over existing text or detail
+· be aware of over or under inking TNA stamp
+Use only (name ink used to stamp documents)
+    
+2.3 Location
+· any numbering or stamping using the TNA stamp should where possible be applied to the verso[footnoteRef:1] of the document at bottom left corner or as near as possible ( e.g. avoiding weak paper or the image) [1:  Verso is the back of leaf; recto is the front] 
+
+· initial numbering may be in pencil (HB or B) or with a numerator.
+· final numbering can be on the document or on the repair at the individual’s discretion using a numerator unless there is a specific reason for not doing so (e.g. superscripts and END)
+
+     2.4  Formats
+
+Single Items:
+· it is  advisable to put the complete reference (in pencil) on a single unsecured item being placed in an enclosure. (e.g. ADM 12/345  1 END) 
+
+
+
+
+
+Loose Documents:
+· single sequence - the final number should have END written after it (include cover if applicable)
+· alternative sequences - seek specialist advice (e.g. rolls within rolls)
+· a document comprising of a number of documents sewn or adhered together should be each numbered separately
+
+  Tagged Files:
+· single sequence - the final number should have END written after it (include cover/s if applicable)
+
+  Pamphlet Styles:
+· Unless previously numbered, treat each individual pamphlet as for Loose Documents unless otherwise directed.  See also Multiple Formats
+
+Multiple Formats:
+· collections of mixed formats-
+· tagged files containing miscellaneous material including pamphlets should be numbered as for Loose Documents 
+· boxes of miscellaneous formats e.g. single parchments plus pamphlets may require a different numbering sequence.  Advice should be sought.
+
+  Covers:
+· Whether or not the front and back cover/s are blank, both should be numbered and stamped with the TNA identification stamp.
+
+2.5   Missing on documents prior to transfer
+· documents should contain notification that item/s are ‘Missing on Transfer’ from a Government Department to TNA.  The notification sheet should be of archival quality and numbered. 
+
+2.6   Missing documents after transfer
+· documents misplaced or lost after transfer from a Government Department to TNA should have a dummy sheet inserted stating that the page/s is MISSING and the date that this was discovered. The dummy sheet should be of archival quality and numbered.
+
+2.7   Missed Numbers
+· if a number has been accidentally omitted when numbering, a dummy sheet should be placed in the position stating  NUMBER NOT USED. The dummy sheet should be of archival quality.
+
+
+
+
+
+
+2.8   Missed Document
+· should a document/s be missed  during numbering the following procedure should be adopted:-
+
+1  2  3  4 (single missed document) 5  6 (two missed documents) 7  8  9
+
+1    2    3   4 A   4B-     5    6 A  6 B  6 C- 7    8    9
+
+· the last super-scripted  letter in the alphabetical sequence must be followed by a dash.
+
+· if subsequent to a previous numbering sequence material has been added in front of page 1 then the additional material becomes  1 A   and the original number 1 becomes  1 B- .
+
+2.9   Cancelling a Number
+· if cancelling an earlier number, use a single diagonal pencil stroke from right to left e.g.   . The original number must not be obscured as it may have been used for cross referencing. 
+
+    2.10  Extracts
+· the current guidelines must be followed.
+
+    2.11  Stamping
+· TNA stamp should be added above the number where possible.  
+
+
+
+3 Materials used for the treatment of paper manuscripts
+
+
+3.1 PAPERS
+
+                Both hand-made and machine made papers should be:
+
+·  neutral pH (or in the range 6.0 to 9.0)
+· colourfast
+· gelatine, starch or modern AKD[footnoteRef:2] or ASA[footnoteRef:3] sized [2:  alkyl ketene  dimers (e.g. Aquapel)]  [3:  alkenyl succinic anhydrides] 
+
+· free of alum or alum rosin sizes
+· contain calcium carbonate or acceptable alkaline equivalent as filler[footnoteRef:4] [4:  ISO 9706:1994 specifies standards for permanent paper including minimum calcium carbonate , or equivalent, content] 
+
+· have reasonable wet strength (with exception of Japanese papers and some tissues)[footnoteRef:5] [5:  epichloryhydride resin used as wet strengthener in manilla spider tissue is currently considered to be archivally acceptable] 
+
+· free of detrimental additives
+· free of available chlorine and sulphur[footnoteRef:6]  [6:  Particularly important for work with photographic images] 
+
+
+Composition: Papers, including recycled papers should ???
+
+· have  minimum lignin content[footnoteRef:7]  [7:   pulps (papers?) with high lignin content are vulnerable to sulphur dioxide absorption ] 
+
+· comply with  paper standards (as set out in?)
+
+3.2   Materials used for mechanically cleaning paper 
+
+             Erasers
+· vinyl erasers should be used in preference to other plastics or latex ones.
+· products should be free of chlorine and sulphur.
+· products should be free of plasticisers e.g. dioctyl phthalate.
+· chemical sponges/smoke sponges are useful for removing heavy surface dirt, followed by more thorough with a vinyl eraser.
+
+3.3  Adhesives, consolidants and sizes 
+
+     The following guidelines apply to both natural[footnoteRef:8] and synthetic[footnoteRef:9] products. (NB traditional adhesives, i.e. starch and gelatine, do not conform in all particulars to the standards detailed below.)[footnoteRef:10] [8: starches (e.g. wheat, rice, potato etc.), animal derivatives (gelatine e.g. fish glue, parchment size etc.); seaweed (alginates); cellulose derivatives e.g. methyl cellulose]  [9:  acrylics e.g. Paraloid B72]  [10:  Traditional adhesives continue to be used as their qualities are well known and predictable and are considered to compare favourably with more modern adhesives.] 
+
+
+                Adhesives, Consolidants and Sizes should:
+· have  a pH between 5.5 and 8.5
+
+and be -
+
+· reversible  after ageing  in a moderately safe and easily available solvent without damage to the document, inks or other media or binders[footnoteRef:11] [11:  Removal will seldom be total as some residue will inevitably remain; in some accepted cases removal is going to be impossible without partial or total destruction of the document (eg. In the case of so badly degraded and fragile documents that consolidation is the final option) ] 
+
+· free of chemically reactive additives
+· stable and have good ageing properties
+· flexible after application and remain so
+· colourless as possible and remain so
+· reasonably resistant to mould and insect attack in appropriate storage conditions
+· compatible with medium/substrate
+· have adequate slip, tack and open time appropriate to the job
+· appropriate grade for the purpose required
+· appropriate consistency for the purpose required
+· highly refined if appropriate e.g. gelatine
+· gluten free, i.e. starch
+
+              should not:
+· be excessively hygroscopic
+· contain plasticisers
+· shrink excessively on drying and ageing
+· migrate or become tacky at room or storage temperatures (i.e. should have reasonably high Tg[footnoteRef:12]  [12:  Glass transition temperature] 
+
+· contain fumigants
+
+    NB Suitable synthetics (e.g. PVA) and animal glues etc. can be used if not in direct contact with the document, e.g. the recommendation for file boards, enclosures and custom made boxes  to off-gas is 30 days
+
+
+3.4   Solvents: Chemical
+
+Health and Safety Conservators should be informed of, and pay due regard to, any health and safety procedures related to the use of chemicals.
+
+                     Uses
+· removal of non-water soluble adhesives
+· stain removal or reduction
+·  solvent and carrier for water soluable consolidants/sizes/adhesives  
+      (e.g. acrylic resins)
+·  aid to water/moisture penetration          
+
+      3.5   Guidelines
+	         All chemicals should:
+· be used in compliance with COSHH and /or any other Health and 
+                          Safety directives
+· not damage the image or substrate
+· be appropriate for the purpose
+· be used in the correct proportions to the solution for the purpose 
+     required
+· be the least innocuous solvent that will successfully fulfil the purpose  
+     required. 
+· be disposed of responsibly
+
+
+
+     3.6  Plastic Films
+
+This includes polyester (Melinex, Perspex, Mylar)  polypropylene etc.
+
+         Should:
+· be inert
+· remain flexible
+· remain transparent
+· remain colourless
+· be anti-static
+· ‘breathe’
+· have reasonably high Tg
+· contain minimal plasticisers ???
+
+         Should not:
+· contain chlorine
+· contain sulphur
+· cross link
+
+3.7  Tapes, Threads and Cords
+
+       Should:
+· be of vegetable or inert synthetic fibre (e.g. polyester)
+· be un-waxed
+· be un-bleached
+· un-dyed
+· have long term durability
+
+
+    4.    Mechanical Cleaning Paper (See 3.3 for materials 
+           used to mechanically clean  items)
+
+
+4.1   Purpose: 
+        Mechanical surface cleaning is the first, and sometimes the only treatment a 
+        paper artefact will receive.  
+· mechanical cleaning is carried out to remove surface dirt and/or loose mould spores.
+· improve the overall appearance of an object
+· to minimize the amount of dirt transferred to another sheet.
+
+4.2  Special considerations 
+        Mechanical cleaning is an irreversible treatment and therefore it should only 
+        be undertaken in the context of the  condition of the document, surface 
+        texture, and the presence of friable materials such as graphite. Mechanical 
+        cleaning can:
+· abrade the surface or permanently alter the paper surface 
+· remove, diminish or disrupt the image (e.g. pencil markings, friable inks etc.)
+· leave unsightly marks ( e.g. streaking)
+· leave behind visible residues of the cleaning agent
+
+4.3  Guidelines
+· brushing of heavily soiled materials should be carried out in a fume cabinet   
+     and wearing protective clothing if necessary. 
+· surface cleaning can be carried out using brushes, erasers, or latex sponges, 
+     depending on the degree of dirt and the nature of the document  (See 3.3)
+
+
+
+5.0  Paper Washing and Drying
+
+5.1 Purpose : 
+          The purpose of aqueous cleaning is to remove soluable acids in the paper, 
+          and in some cases improve the appearance of the sheet. Washing can be an 
+          independent treatment or it can be used in conjunction with other treatments. 
+          E.g. to remove residual chemicals or adhesives.
+
+5.2  Special Considerations
+· Some specialist papers and surface coatings should not be wetted. It is not   
+         generally appropriate to wash sound, clean paper[footnoteRef:13].  [13:  An apparently strong clean paper may record a low pH reading.  Washing or de-acidification may disturb this chemical equilibrium. ] 
+
+· Washing can affect the tonal quality of many inks, reduce the density of the  
+          inks and alter the surface characteristics of the sheet. 
+· Documents written in iron-gall ink should not be washed. XXX dyes as 
+     well as all other media may be affected. Washing will alter he size or cause 
+     permanent dimensional changes.
+
+	5.3  Guidelines
+· washing should be preceded by mechanical cleaning unless the fragility of    
+     the document makes this impossible
+· washing should not be undertaken without testing for fugitive inks. Many 
+     inks are fugitive to different degrees depending on the binder and density 
+     of the ink, particularly iron gall inks, coloured inks and pencil.
+· washing should not be undertaken without testing for media/binder   
+     solubility. 
+· ideally wash in running water to flush away the impurities. Alternatively 
+    change water regularly until the water shows no visible colour change.   
+    Better results are achieved with gently moving water in order to flush the 
+    dirt out of the fibres Inadequate washing can be detrimental[footnoteRef:14].  The duration  [14:  This can redistribute harmful metal ions (iron and copper) and re-activate acids.] 
+
+    will vary according to the condition of the document - minimum of 30 
+    minutes. 
+· items must be adequately supported during washing.[footnoteRef:15]  items can be  [15:  There is concern that when using  nylon mesh that dirt can be trapped and held in the weave and be transferred back into the document.  (Never dry a document on the mesh as the pattern of the weave will be visible on the paper)] 
+
+     washed singly or in small multiples (approximately 5). after washing in  
+     batches ensure that there is complete water penetration throughout the 
+     batch.
+· allow to dry or partially dry before considering de-acidification. Washing may preclude the necessity for de-acidification.
+
+Alternatives to immersion washing:
+· float washing ?? explain
+
+
+6. Treatment: Re-sizing paper documents
+
+6.1    Purpose: 
+         To add mechanical strength to a very fragile or damaged paper, to replace 
+         the original size that has been wholly or partially removed in the washing 
+         process
+
+6.2    Special Considerations:
+               resizing is a irreversible process and should only be undertaken when the 
+               paper is very soft or weak. The choice of sizing agent will depend on a 
+               number of factors including the condition of the sheet and the sensitivity of 
+               the media.
+               The size most frequently used is dilute refined gelatine[footnoteRef:16] as this is the type  [16:  Gelatine is used at about 2% gelatine to water and must be applied warm. ] 
+
+               of  size traditionally used in western early paper manufacture: although 
+               partially replaced by alum rosin sizing and now by alkaline sizes, gelatine is 
+               still the most likely size to be removed during the washing process of older 
+               papers. 
+
+6.3    Guidelines
+         Aqueous sizing agents
+· if a non-water soluble size is to be used the inks must be tested for 
+     stability to the solvent involved
+· re-sizing should be carried out on dry paper documents that have been 
+     washed.
+· sizing is normally carried out after completion of repairs. The size should 
+    completely penetrate the whole document 
+· application can be with a brush or spray the document must be left to air 
+     dry 
+· the paper should not be left shiny or stiff
+	
+                 Non-aqueous sizing agents ????
+    
+
+
+	7.0 Treatments: Deacidification of Paper
+
+7.1 Purpose: 
+       to further reduce the soluble acids in paper and to, provide an alkaline  
+       buffer to inhibit deterioration of paper. 
+
+   (Note that some paper fibres, e.g. hemp, are naturally more acidic than others).
+
+7.2  Special considerations
+        If the item appears in good condition with no visible appreciable signs of    
+        deterioration, de-acidification is not necessary.  Bear in mind that some 
+        paper fibres are more naturally acidic than others, but nevertheless very 
+        durable, and the   results of chemical interference are unpredictable.
+
+        7.3  De-acidification should only be undertaken if:
+· there is no over-riding necessity to retain the physical and chemical 
+     integrity of the item. the item is below pH 5.0 - 5.5 
+· no component of the media (e.g. hardeners/binders etc. as well as the 
+     colouring agent itself) is alkaline sensitive.
+· iron gall inks need to be considered in this category as they may lose 
+     intensity, although an over-acidic ink m ay benefit.
+· no component of the media is sensitive to the de-acidification 
+
+Guidelines to De-acidification of Paper carrier (water or organic solvent) 
+
+    	 7.4   Choice of De-acidifying Agent:
+· neither the agent or carrier should damage any aspect of the paper or the 
+ media.
+· the agent should preferably contain a buffer.
+· alkaline sensitive images ???
+· magnesium should be used in preference to Calcium as it is less harsh.
+· bicarbonates should be used in preference to hydroxides for a more   
+ moderate alkalinity[footnoteRef:17] - (the end results should not be above pH 9.0) [17:  Strong de-acidifying agents can cause bleaching] 
+
+· non-aqueous de-acidification may be more convenient for large   
+ numbers of documents
+· possible health considerations ( e.g. if an organic solvent is to be used  
+ and no fume cabinet is available.
+
+
+
+
+
+
+
+
+8. Consolidation and fixing inks and pigments
+
+8.1 Purpose: 
+· to re-attach flaking inks or pigments to the paper.  
+· to re-adhere flaking ink or pigment particles 
+· to protect inks or pigments during wet treatments or 
+                       treatments using a solvent different from that of the fixative and to 
+                       which it is not soluble
+
+        8.2  Special considerations
+                  The appearance of the document should not be altered
+
+        8.3  Guidelines
+
+(Note: as the fixative is seldom removable wholly or in part the standards for consolidants generally should be followed (See 3.4)) humidification of paper or parchment can sometimes soften media binders sufficiently to enable  re-adherence. 
+
+· any necessary Health and Safety procedures should be followed.
+· the consolidant must conform to the specifications laid out in 3.4
+· application should follow mechanical cleaning unless the item is too 
+         fragile for the latter to take place.
+· inks/pigments must be tested with the solvent to be employed before 
+         application
+· a consolidant should not change surface qualities or the refractory index 
+     of the sheet
+· application can be by brush, fine spray or misting.
+·  if a consolidant is available in different grades or code numbers then 
+     the correct one for the purpose must be selected (e.g. Methyl cellulose 
+     and Paraloid) 
+· the correct ratio of consolidant to solvent must be used[footnoteRef:18] [18:  Note that the lower the concentration the greater degree of penetration of the material: a volatile chemical solvent will eveporate off too quickly to allow time for a heavy concentration to pass in to the material] 
+
+· inks and pigments must be tested for stability to the solvent before 
+    application
+· the correct proportion to solvent should be ????
+· if re-adherence to the substrate is required application should be with 
+     a fine brush beneath the pigment not on top of it.
+· alcohol can be used to aid penetration beneath the pigment or flaking 
+     ink
+· application should not leave a shine 
+     
+
+
+
+9.0 Repair
+
+9.1 Purpose
+
+9.2 Special considerations
+
+9.3 Guidelines
+
+
+16
+

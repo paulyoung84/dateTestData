@@ -1,0 +1,75 @@
+[
+    {
+        "end": 467,
+        "start": 453,
+        "text": "September 2003",
+        "timex-value": "2003-09",
+        "type": "DATE",
+        "value": "2003-09"
+    },
+    {
+        "end": 2335,
+        "start": 2325,
+        "text": "the future",
+        "timex-value": "FUTURE_REF",
+        "type": "DATE",
+        "value": "FUTURE_REF"
+    },
+    {
+        "end": 2498,
+        "start": 2492,
+        "text": "future",
+        "timex-value": "FUTURE_REF",
+        "type": "DATE",
+        "value": "FUTURE_REF"
+    },
+    {
+        "end": 5710,
+        "start": 5700,
+        "text": "previously",
+        "timex-value": "PAST_REF",
+        "type": "DATE",
+        "value": "PAST_REF"
+    },
+    {
+        "end": 7767,
+        "start": 7760,
+        "text": "current",
+        "timex-value": "PRESENT_REF",
+        "type": "DATE",
+        "value": "PRESENT_REF"
+    },
+    {
+        "end": 10403,
+        "start": 10396,
+        "text": "30 days",
+        "timex-value": "P30D",
+        "type": "DURATION",
+        "value": "P30D"
+    },
+    {
+        "end": 14870,
+        "start": 14854,
+        "text": "30 \n\n    minutes",
+        "timex-value": "PT30M",
+        "type": "DURATION",
+        "value": "PT30M"
+    },
+    {
+        "end": 16134,
+        "start": 16131,
+        "text": "now",
+        "timex-value": "PRESENT_REF",
+        "type": "DATE",
+        "value": "PRESENT_REF"
+    },
+    {
+        "end": 21002,
+        "start": 20993,
+        "text": "currently",
+        "timex-value": "PRESENT_REF",
+        "type": "DATE",
+        "value": "PRESENT_REF"
+    }
+]
+

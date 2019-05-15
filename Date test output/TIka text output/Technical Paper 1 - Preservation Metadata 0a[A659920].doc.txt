@@ -1,0 +1,3564 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+User Requirements
+
+	Digital Preservation Technical Paper 1: The TNA preservation metadata scheme
+
+
+
+	
+ 
+
+
+	Digital Preservation Technical Paper:
+	1
+
+
+	The TNA Preservation Metadata Scheme
+
+
+Document Control
+
+	Author:
+	Adrian Brown, Services Manager
+
+	Document Reference:
+	DPTP-01
+
+	Issue:
+	0a
+
+	Issue Date:
+	12 November 2003
+
+
+(THE NATIONAL ARCHIVES 2003
+
+Contents
+
+41
+Introduction
+
+
+42
+Background
+
+
+53
+Information model
+
+
+74
+Metadata Elements
+
+
+74.1
+Accession
+
+
+74.1.1
+Metadata Map
+
+
+84.1.2
+Element Descriptions
+
+
+224.2
+Record
+
+
+224.2.1
+Metadata Map
+
+
+234.2.2
+Element Descriptions
+
+
+314.3
+Manifestation
+
+
+314.3.1
+Metadata Map
+
+
+324.3.2
+Element Descriptions
+
+
+414.4
+File
+
+
+414.4.1
+Metadata Map
+
+
+424.4.2
+Element Descriptions
+
+
+484.5
+Type-specific extensions
+
+
+505
+Bibliography
+
+
+
+
+Introduction
+
+This document is the first in a series of technical papers produced by the Digital Preservation Department of The National Archives, covering detailed technical issues related to the preservation and management of electronic records. 
+
+This technical paper describes the preservation metadata scheme developed by TNA for use within its Digital Archive system. Advice and guidance on the use of this scheme by bodies transferring records to TNA can be provided by Digital Preservation Department.
+
+1 Background
+The first version of the metadata scheme was developed in 2002, and implemented in April 2003, as part of the operational release of the TNA Digital Archive system. The following existing metadata schemes were consulted as part of this process:
+
+
+(
+OCLC/RLG
+
+(
+National Library of Australia
+(
+National Library of New Zealand
+(
+VERS
+(
+CEDARS
+· NEDLIB
+· English Heritage Centre for Archaeology
+· TNA Catalogue (PROCAT)
+
+Elements were drawn from existing schemes, where these were considered to be appropriate, and some additional elements were added to meet the particular requirements of TNA. Many elements are common to most schemes, but in particular cases, the origin of an element is indicated in the detailed descriptions in Section 4.
+The scheme was reviewed in December 2003, to take account of nine months operational experience, and to inform the future development of the Digital Archive. The scheme described here represents the result of that review process.
+
+Information model
+
+The preservation metadata scheme uses a simple but powerful information model, which is illustrated below:
+Preservation Metadata
+
+Accession
+
+RecordManifestation
+
+File
+
+Record Type-
+
+Specific
+
+Extensions
+
+File Type-
+
+Specific
+
+Extensions
+
+Series
+
+Department
+
+
+A core business requirement was that the scheme should be compatible with the existing TNA catalogue structure, which is based on ISAD(G). Conceptually, the main TNA catalogue provides resource discovery metadata for all TNA records, including objects stored in the Digital Archive. The preservation metadata scheme was developed as an extension to this catalogue structure, providing additional preservation elements specific to digital records. However, for security and operational reasons, some resource discovery elements are also included in the scheme. These map directly to, and are synchronised with, the equivalent elements in the main catalogue.
+
+The top-level information entity in the preservation metadata information model therefore occupies a position mid-way down the main catalogue hierarchy. The higher level entities of department and series are external to the model, although they are referenced through the TNA (PROCAT) reference number for each record.
+The accession entity represents a group of records transferred into the archive as a single collection. As such, an accession may either be a new record series, or an accrual to an existing series. The accession entity is used to record the transfer history of the records into the Digital Archive. 
+A record represents the conceptual object being stored. Each record may also contain a potentially infinite hierarchy of sub-records. The top-level record always corresponds to a piece within the main catalogue structure. A record may be represented by one or many individual files, which comprise the actual bitstreams stored within the Digital Archive. The scheme separates logical and physical storage structure – each file is stored only once, but may be associated with many logical records.
+
+A record may exist in a number of different technical forms, or manifestations, created to meet requirements for preservation or access. For example, a set of records might originally be accessioned in an obsolete format such as WordStar for DOS. Migration of those records to MS Word format for preservation purposes would create a new manifestation of the same records. A manifestation may comprise one or many files, and files may be shared between multiple manifestations.
+The metadata scheme is designed to be extensible, and the information model therefore allows for the definition of additional type-specific entities, with associated element sets. These can be used to provide more detailed descriptions of particular object types, such as images, audio-visual material, or databases. Type-specific elements can extend either record or file entities.
+Each entity within this information model is associated with a particular set of metadata elements. These elements are described in the next section. 
+
+2 Metadata Elements
+
+This section describes the individual metadata elements in the scheme. Elements are arranged by entity – for each entity in the information model, an overall metadata map illustrates the arrangements of the various element sub-sets, followed by detailed element descriptions.
+
+Accession
+The accession element set describes a group of records transferred into the Digital Archive as a single collection.
+2.1.1 Metadata Map
+
+Repeatable element sub-sets are marked (R).
+A Accession
+
+A1 Accession Reference
+
+A2 Accession Content
+
+A3 Technical Information
+
+A4 Access
+
+A5 Provenance
+
+A6 Accession Information
+
+A7 Related Accessions (R)
+
+A3.4 Preservation History (R)
+
+A5.4 Custodial History (R)
+
+A6.5 Accession Procedure (R)
+
+A1.2 Catalogue Reference
+
+A2.7 Covering Dates
+
+A2.8 Accumulation Dates
+
+
+2.1.2 Element Descriptions
+
+A1 Accession Reference
+This section describes referencing information for the whole accession.
+A1.1 Accession ID
+
+	Definition
+	The unique system identifier assigned to the accession
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – system assigned
+
+	Type
+	Alphanumeric
+
+	Example
+	20
+
+	Comments
+	
+
+	Origin
+	
+
+
+A1.2 Catalogue Reference
+
+A1.2.1 Department Reference
+	Definition
+	The full TNA catalogue (PROCAT) Department reference assigned to the records within the accession
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	JA
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A1.2.2 Series Reference
+
+	Definition
+	The full TNA catalogue (PROCAT) series reference assigned to the records within the accession
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	4
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A1.3 Former Reference (External)
+
+	Definition
+	A reference code previously used for an individual record or group of records by an agency outside TNA
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A1.4 Former Reference (Internal)
+
+	Definition
+	A TNA catalogue (PROCAT) reference previously used for an individual record or group of records.
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A2 Accession Content
+
+This section describes the content of the accession.
+A2.1 Title
+
+	Definition
+	The name given to the accession
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	PRO 12/25-32 - Public Record Office: Registers, Repairs
+
+	Comments
+	
+
+	Origin
+	
+
+
+A2.2 Creator
+
+	Definition
+	Describes the organisation or individual responsible for the content of the accession records up to their declaration as records
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Office of Works
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A2.3 Significant Properties
+
+	Definition
+	Describes the significant properties of the accession which must be preserved
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Significant Properties
+
+
+A2.4 Scope and Content
+
+	Definition
+	Synopsis of the form and subject matter within the accession
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A2.5 Arrangement
+
+	Definition
+	Describes the logical structure of the accession records, e.g. file structure or data model
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A2.6 Language
+
+	Definition
+	Describes the native language that the information on the accession records is captured in
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	English
+
+	Comments
+	Must comply with ISO 639
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A2.7 Covering Dates
+
+A2.7.1 Covering Date (From)
+	Definition
+	The beginning date for the span which covers the creation of the accession records
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-12-11
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A2.7.2 Covering Date (To)
+	Definition
+	The end date for the span which covers the creation of the accession records
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-12-11
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A2.8 Accumulation Dates
+
+A2.8.1 Accumulation Date (From)
+	Definition
+	The beginning date for the span which covers the accumulation of the accession records
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-12-11
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A2.8.2 Accumulation Date (To)
+	Definition
+	The end date for the span which covers the accumulation of the accession records
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-12-11
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A2.9 Legal Status
+
+	Definition
+	Describes whether or not the records are Public Records
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	Public record(s)
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A3 Technical Information
+
+This section describes technical information about the accession.
+A3.1 Technical Documentation
+
+	Definition
+	Description and location of any documentation on the original technical environment e.g. functional specification, user guides, data dictionaries etc. 
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	
+
+
+A3.2 Fixity History
+
+	Definition
+	Describes how and when the records have been safeguarded from undocumented alteration prior to accession
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	
+
+
+A3.3 Media Description
+
+	Definition
+	Describes the number and file structure of the physical media on which the records were received
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	2 x CD-Rs, ISO 9660
+
+	Comments
+	
+
+	Origin
+	
+
+
+A3.4 Preservation History
+
+This section describes any actions which were undertaken to preserve the accession records prior to their transfer to TNA. This element sub-set is repeatable within accessions.
+A3.4.1 Preservation History Event
+
+	Definition
+	Describes the type of event which occurred
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Migration to new system
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Pre-Ingest Designation
+
+
+A3.4.2 Preservation History Process
+
+	Definition
+	Describes the detailed process involved
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Email system migrated from Microsoft Outlook 97 to Microsoft Outlook 2000
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Pre-Ingest Procedure
+
+
+A3.4.3 Preservation History Date
+
+	Definition
+	The date on which the procedure took place
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-11-05
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	OCLC/RLG: Pre-Ingest Date
+
+
+A3.4.4 Preservation History Agency
+
+	Definition
+	Describes the agency which undertook the procedure
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Department of Health
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Pre-Ingest Responsible Agency
+
+
+A3.4.5 Preservation History Outcome
+
+	Definition
+	Describes the outcome of the procedure
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	All files were migrated successfully
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Pre-Ingest Outcome
+
+
+A3.4.6 Preservation History Notes
+
+	Definition
+	Describes any other comments on the procedure
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Pre-Ingest Note
+
+
+A4 Access
+
+This section describes access and security information relating to the accession records.
+A4.1 Access Conditions
+
+	Definition
+	Conditions governing access to all the records in an accession
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	Subject to 30 year closure
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A4.2 Restrictions on Use
+
+	Definition
+	Restrictions on the use or reproduction of the material after access has been granted, e.g. copyright restrictions. This can also include information on physical restrictions
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Only available by prior arrangement (3 working days)
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A5 Provenance
+
+This section describes the provenance of the accession records.
+A5.1 Administrative & Biographical History
+
+	Definition
+	Describes administrative, biographical details, or other historical statement about the corporate body or individual responsible for creating and accumulating the records being described.
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A5.2 Location of Originals
+
+	Definition
+	Describes the location of original records if TNA holds copies
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	National Sound Archive
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A5.3 Location of Copies
+
+	Definition
+	Describes the location of copies or renditions of the records
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Imperial War Museum
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A5.4 Custodial History
+
+This section describes changes which have occurred in the custody or ownership of the accession records, up to the point of accession into the Digital Archive. This element sub-set is repeatable within accessions.
+
+A5.4.1 Custody Process
+
+	Definition
+	Describes the custody process which occurred 
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Change of ownership
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Pre-Ingest Procedure
+
+
+
+A5.4.2 Custody Process Date
+
+	Definition
+	The date on which the process occurred
+
+	Mandatory
+	N
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-11-05
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	OCLC/RLG: Pre-Ingest Date
+
+
+
+A5.4.3 Custody Process Source Agency
+
+	Definition
+	Describes the source agency in the custody process
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	The Home Office
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Pre-Ingest Responsible Agency
+
+
+
+A5.4.4 Custody Process Receiving Agency
+
+	Definition
+	Describes the receiving agency in the custody process
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	The National Archives
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Pre-Ingest Responsible Agency
+
+
+
+A5.4.5 Custody Process Notes
+
+	Definition
+	Describes any additional notes on the custody process
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Pre-Ingest Responsible Note
+
+
+A6 Accession
+
+This section describes the actual accession of records into the Digital Archive.
+
+A6.1 Accession Date
+
+	Definition
+	The date on which the records were accessioned into the Digital Archive
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-11-11
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A6.2 Place of Deposit
+
+	Definition
+	Describes the authority controlled name of the repository holding the record
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	The National Archives, Kew
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A6.3 Immediate Source of Acquisition
+
+	Definition
+	The name of the corporate body or person from which the records were acquired
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	Foreign and Commonwealth Office
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A6.4 Disposition Information
+
+	Definition
+	Information on any appraisal, scheduling and destruction actions, e.g. is it a sample, was it transferred under FOI? This should include the section of the acquisition policy under which the record was accessioned
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	PRO acquisition policy collection theme 2.2.1.1
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+A6.5 Accession Procedure
+
+This section describes the events undertaken as part of the accession procedure. This element sub-set is repeatable within accessions.
+A6.5.1 Accession Procedure Event
+
+	Definition
+	Describes the event which occurred
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	File transfer to DP server
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Ingest Designation
+
+
+A6.5.2 Accession Procedure Process
+
+	Definition
+	Describes the detailed process involved
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	The files were copied from the TNA network onto the digital archive workstation, via removable media, for loading
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Ingest Procedure
+
+
+A6.5.3 Accession Procedure Date
+
+	Definition
+	The date on which the procedure took place
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-11-05
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	OCLC/RLG: Ingest Date
+
+
+A6.5.4 Accession Procedure Agency
+
+	Definition
+	Describes the agency which undertook the procedure
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	TNA Digital Preservation Department
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Ingest Responsible Agency
+
+
+A6.5.5 Accession Procedure Outcome
+
+	Definition
+	Describes the outcome of the procedure
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	All files were transferred successfully
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Ingest Outcome
+
+
+A6.5.6 Accession Procedure Notes
+
+	Definition
+	Describes any other comments on the procedure
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Ingest Note
+
+
+A7 Related Accessions
+This section describes relationships between accessions. This element sub-set is repeatable within accessions.
+
+A7.1 Accession Relationship Type
+
+	Definition
+	Describes the type of relationship between the current and cited accession
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Accrues from
+
+	Comments
+	
+
+	Origin
+	
+
+
+
+A7.2 Related Accession ID
+
+	Definition
+	The unique system identifier of the related accession
+
+	Mandatory
+	N
+
+	Controlled
+	Y – system assigned
+
+	Type
+	Alphanumeric
+
+	Example
+	200
+
+	Comments
+	
+
+	Origin
+	
+
+
+Record
+
+The record element set describes each record transferred into the Digital Archive within an accession.
+
+2.1.3 Metadata Map
+
+Repeatable element sub-sets are marked (R).
+
+B Record
+
+B1 Record Reference
+
+B2 Record Content
+
+B3 Technical
+
+B4 Access
+
+B5 Related Records (R)
+
+B1.2 Catalogue Reference
+
+B2.7 Covering Dates
+
+
+2.1.4 Element Descriptions
+
+B1 Record Reference
+This section describes referencing information for the record.
+
+B1.1 Record ID
+
+	Definition
+	The unique system identifier assigned to the record
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – system assigned
+
+	Type
+	Alphanumeric
+
+	Example
+	20-1
+
+	Comments
+	
+
+	Origin
+	
+
+
+B1.2 Catalogue Reference
+
+B1.2.1 Department Reference
+
+	Definition
+	The full TNA catalogue (PROCAT) Department reference assigned to the records within the accession
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	JA
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B1.2.2 Series Reference
+
+	Definition
+	The full TNA catalogue (PROCAT) series reference assigned to the records within the accession
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	4
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B1.2.3 Piece Reference
+	Definition
+	The full TNA catalogue (PROCAT) piece reference assigned to the record
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	1
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B1.2.4 Item Reference
+
+	Definition
+	The full TNA catalogue (PROCAT) item reference assigned to the record
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	1
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B1.3 Former Reference (External)
+
+	Definition
+	A reference code previously used for an individual record or group of records by an agency outside TNA
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B1.4 Former Reference (Internal)
+
+	Definition
+	A TNA catalogue (PROCAT) reference previously used for an individual record or group of records.
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B2 Record Content
+
+This section describes the content of the record.
+B2.1 Title
+
+	Definition
+	The name given to the record
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	WORK 90/1
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B2.2 Creator
+
+	Definition
+	Describes the organisation or individual responsible for the content of the record up to its declaration as a record
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Bloody Sunday Inquiry
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B2.3 Significant Properties
+
+	Definition
+	Describes the significant properties of the record which must be preserved
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Significant Properties
+
+
+B2.4 Scope and Content
+
+	Definition
+	Synopsis of the form and subject matter within the records
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B2.5 Arrangement
+
+	Definition
+	Describes the logical structure of the record, e.g. file structure or data model
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B2.6 Language
+
+	Definition
+	Describes the native language that the information on the records is captured in
+
+	Mandatory
+	N
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	English
+
+	Comments
+	Must comply with ISO 639
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B2.7 Covering Dates
+
+B2.7.1 Covering Date (From)
+	Definition
+	The beginning date for the span which covers the creation of the record
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-12-11
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B2.7.2 Covering Date (To)
+	Definition
+	The end date for the span which covers the creation of the record
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-12-11
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B2.8 Record Declaration Date
+
+	Definition
+	The date on which the record was formally declared as such
+
+	Mandatory
+	N
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-12-11
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	
+
+
+B2.9 Record Type
+	Definition
+	Describes the generic type of the record
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	Website
+
+	Comments
+	This element controls the applicability of record level type-specific metadata extensions
+
+	Origin
+	NLA: Structural Type
+
+
+B3 Technical Information
+
+This section describes technical information about the record.
+B3.1 Password
+
+	Definition
+	Describes any password required to access the record if the system does not permit password removal
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Guest1
+
+	Comments
+	
+
+	Origin
+	
+
+
+B3.2 Encryption
+
+	Definition
+	Describes any encryption method used previously (this would be removed prior to loading)
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	PGP Desktop 8.0.3
+
+	Comments
+	
+
+	Origin
+	VERS: Encryption Details
+
+
+B4 Access
+This section describes the access and security conditions relating to use of the record.
+B4.1 Security Category
+
+	Definition
+	The protective marking on the record
+
+	Mandatory
+	N
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	Restricted
+
+	Comments
+	
+
+	Origin
+	VERS: Security Classification
+
+
+B4.2 Closure Type
+
+	Definition
+	Conditions governing access to the record 
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	Closed for
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B4.3 Closure Code
+
+	Definition
+	The code associated with the Closure Type element
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	30
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B4.4 Closure Status
+
+	Definition
+	Current closure status of the record and description
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PROCAT authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	Open record, open description
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B4.5 Restrictions on Use
+
+	Definition
+	Restrictions on the use or reproduction of the material after access has been granted, e.g. copyright restrictions. This can also include information on physical restrictions
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Only available by prior arrangement (3 working days)
+
+	Comments
+	
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B4.6 Record Opening Date
+	Definition
+	The date when the record was or will be opened
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-11-05
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	TNA Catalogue Metadata
+
+
+B5 Related Records
+
+This section describes relationships between records. This element sub-set is repeatable within records.
+
+
+B5.1 Record Relationship Type
+
+	Definition
+	Describes the type of relationship between the current and cited record
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Describes
+
+	Comments
+	
+
+	Origin
+	
+
+
+B5.2 Related Record ID
+
+	Definition
+	The unique system identifier of the related record
+
+	Mandatory
+	N
+
+	Controlled
+	Y – system assigned
+
+	Type
+	Alphanumeric
+
+	Example
+	200-5
+
+	Comments
+	
+
+	Origin
+	
+
+
+Manifestation
+
+The Manifestation element set describes the nature, provenance, and detailed technical dependencies of each manifestation.
+
+2.1.5 Metadata Map
+
+Repeatable element sub-sets are marked (R).
+
+C Manifestation
+
+C1 Manifestation Object
+
+C2 Manifestation Environment
+
+C2.1 Software Environment
+
+C2.2 Operating System Environment (R)
+
+C2.3 Hardware Environment (R)
+
+C1.1 Object Information
+
+C1.2 Migration (R)
+
+C1.2 Related Manifestations (R)
+
+C2.1.1 Transformation Process (R)
+
+C2.1.2 Access Process (R)
+
+
+2.1.6 Element Descriptions
+
+C1 Object
+
+This section describes the nature of the manifestation and its associated migration pathways.
+
+C1.1 Object Information
+
+This section describes information about the manifestation object itself.
+C1.1.1 Manifestation ID
+
+	Definition
+	The unique system identifier assigned to each manifestation
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – system assigned
+
+	Type
+	Alphanumeric
+
+	Example
+	20-M1
+
+	Comments
+	
+
+	Origin
+	CfA: Manifestation Metadata
+
+
+C1.1.2 Manifestation Type
+
+	Definition
+	Description of the type of manifestation
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	HTML manifestation
+
+	Comments
+	
+
+	Origin
+	CfA: Manifestation Metadata
+
+
+C1.1.3 Manifestation Status
+
+	Definition
+	The current status of the manifestation
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	Current
+
+	Comments
+	
+
+	Origin
+	CfA: Manifestation Metadata
+
+
+C1.1.4 Manifestation Structure
+	Definition
+	Description of any complex components of the manifested object and their interrelationships
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	This manifestation comprises 7 unlinked Excel 2000 worksheet files and 1 Access 2000 database file
+
+	Comments
+	
+
+	Origin
+	CfA: Manifestation Metadata; CEDARS: Underlying Abstract Form
+
+
+C1.1.5 Manifestation Documentation
+
+	Definition
+	Reference to any associated documentation for the manifestation
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	My System User Guide
+
+	Comments
+	
+
+	Origin
+	CfA: Manifestation Metadata
+
+
+C1.1.6 Installation Requirements
+
+	Definition
+	Any procedures required to install and run the manifestation for access
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Open “index.htm” in root folder to view
+
+	Comments
+	
+
+	Origin
+	NLNZ :Installation Requirements; NLA: Installation Requirements
+
+
+C1.1.7 Manifestation Notes
+
+	Definition
+	Any additional notes on the manifestation
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	CfA: Manifestation Metadata
+
+
+C1.2 Migration
+
+This section describes the migration pathway(s) used to create the manifestation. This element sub-set is repeatable within manifestations.
+
+
+C1.2.1 Migration Date
+
+	Definition
+	The date on which the migration event was conducted
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-11-05
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	CfA: Migration Pathway Metadata
+
+
+
+C1.2.2 Migration Pathway ID
+
+	Definition
+	The unique identifier of the migration pathway used
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – system assigned
+
+	Type
+	Alphanumeric
+
+	Example
+	7
+
+	Comments
+	
+
+	Origin
+	CfA: Migration Pathway Metadata
+
+
+
+C1.2.3 Migration Agency
+	Definition
+	Describes the individual or agency which undertook the migration process
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	TNA Digital Preservation Department
+
+	Comments
+	
+
+	Origin
+	CfA: Migration Pathway Metadata
+
+
+
+C1.2.4 Migration Certificate
+
+	Definition
+	Details of any layout, content or functionality lost in migration, discrepancies and corrections
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	CfA: Migration Pathway Metadata
+
+
+C1.3 Related Manifestations
+
+This section describes relationships between manifestations of a record. This element sub-set is repeatable within manifestations.
+
+
+C1.3.1 Manifestation Relationship Type
+
+	Definition
+	Describes the type of relationship between the current and cited manifestation
+
+	Mandatory
+	N
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	Migrated from
+
+	Comments
+	
+
+	Origin
+	CfA: Manifestation Metadata
+
+
+
+C1.3.2 Related Manifestation ID
+
+	Definition
+	The unique system identifier of the related manifestation
+
+	Mandatory
+	N
+
+	Controlled
+	Y – system assigned
+
+	Type
+	Alphanumeric
+
+	Example
+	15-M0
+
+	Comments
+	
+
+	Origin
+	CfA: Manifestation Metadata
+
+
+C2 Environment
+This section describes the technical environment required to access the manifestation.
+
+C2.1 Software Environment
+
+This section describes the software environment required to access the manifestation.
+
+
+C2.1.1 Transformation Process
+
+This section describes the process required to transform the stored bit stream into an accessible form. This element sub-set is repeatable within manifestations.
+
+
+
+C2.1.1.1 Transformation Engine
+
+	Definition
+	The name and version of the software required to transform the object 
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	WinZip Version 8.1
+
+	Comments
+	
+
+	Origin
+	CEDARS: Transformer Object
+
+
+
+
+C2.1.1.2 Transformation Parameters
+
+	Definition
+	Description of any runtime parameters required for the transformation engine
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Unzip files to C:\Program Files\My Software\
+
+	Comments
+	
+
+	Origin
+	CEDARS: Transformer Object
+
+
+
+
+C2.1.1.3 Transformation Engine Location
+
+	Definition
+	Description of the location of the required transformation engine environment
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	TNA Software Library, ISO Image 546
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Location
+
+
+
+
+C2.1.1.4 Transformation Engine Documentation
+
+	Definition
+	Reference to any associated documentation for the required transformation engine
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	WinZip Version 8.1 User Guide
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Documentation
+
+
+C2.1.2 Access Process
+
+This section describes the process required to access the transformed bit stream. This element sub-set is repeatable within manifestations.
+
+
+
+C2.1.2.1 Access Engine
+
+	Definition
+	The name and version of the software required to display the object and access its intellectual content 
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Adobe Acrobat Reader Version 5.0.5
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Display/Access Application
+
+
+C2.1.2.2 Access Engine Location
+
+	Definition
+	Description of the location of the required access engine environment
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	TNA Software Library, ISO Image 312
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Location
+
+
+
+
+C2.1.2.3 Access Engine Documentation
+
+	Definition
+	Reference to any associated documentation for the required access engine
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Adobe Acrobat Reader 5 User Guide
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Documentation
+
+
+C2.2 Operating System Environment
+This section describes the operating system environment required to access the manifestation. This element sub-set is repeatable within manifestations.
+
+C2.2.1 OS Name
+
+	Definition
+	The official name of the required operating system
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Microsoft Windows XP
+
+	Comments
+	
+
+	Origin
+	NEDLIB: OS Name
+
+
+
+C2.2.2 OS Version
+
+	Definition
+	The required operating system edition, version, and patch/service pack level 
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	Professional Edition, Version 2002, Service Pack 1
+
+	Comments
+	
+
+	Origin
+	NEDLIB: OS Version
+
+
+
+C2.2.3 OS Location
+
+	Definition
+	Description of the location of the required operating system environment
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	TNA Digital Preservation Computer Laboratory, Workstation 5
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Location
+
+
+C2.2.4 OS Documentation
+
+	Definition
+	Reference to any associated documentation for the required operating system environment
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Documentation
+
+
+C2.3 Hardware Environment
+
+This section describes the hardware environment required to access the manifestation. This element sub-set is repeatable within manifestations.
+C2.3.1 CPU Requirements
+	Definition
+	The minimum CPU type and speed requirement
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	AMD Athlon XP 1700+ 1.4GHz
+
+	Comments
+	
+
+	Origin
+	NEDLIB: Microprocessor Requirements
+
+
+C2.3.2 RAM Requirements
+
+	Definition
+	The minimum RAM requirement
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	256 MB
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Memory Requirements
+
+
+C2.3.3 Storage Requirements
+
+	Definition
+	The minimum free hard disk space requirement
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	10 GB
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Storage Information
+
+
+C2.3.4 Peripheral Requirements
+
+	Definition
+	Additional peripheral requirements, including sound and graphics cards, dongles etc. 
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	SoundBlaster-compatible sound card
+
+	Comments
+	
+
+	Origin
+	NEDLIB: Peripheral Requirements
+
+
+C2.3.5 Hardware Location
+
+	Definition
+	Description of the location of the required hardware environment
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	TNA Digital Preservation Computer Laboratory
+
+	Comments
+	OCLC/RLG: Location
+
+	Origin
+	
+
+
+C2.3.6 Hardware Documentation
+
+	Definition
+	Reference to any associated documentation for the required hardware environment
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	
+
+	Comments
+	
+
+	Origin
+	OCLC/RLG: Documentation
+
+
+File
+
+The file element set describes an individual file which forms part of a record.
+
+2.1.7 Metadata Map
+
+Repeatable element sub-sets are marked (R).
+
+D File
+
+D1 File Information
+
+D2 Fixity
+
+D3 Virus Checking (R)
+
+
+2.1.8 Element Descriptions
+
+D1 File Information
+This section describes the basic characteristics of each file. All elements are system-populated as part of the accession process.
+D1.1 File ID
+	Definition
+	Describes the unique system identifier assigned to each file
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – system assigned
+
+	Type
+	Alphanumeric
+
+	Example
+	20-1
+
+	Comments
+	
+
+	Origin
+	
+
+
+D1.2 Original File Name
+
+	Definition
+	Describes the original system file name
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	My Document.doc
+
+	Comments
+	
+
+	Origin
+	
+
+
+D1.3 System File Name
+
+	Definition
+	Describes any system file name assigned to the file by the Digital Archive
+
+	Mandatory
+	N
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	20-1-2 My Document.pdf
+
+	Comments
+	
+
+	Origin
+	
+
+
+D1.4 Original File Path
+
+	Definition
+	Describes the original system file path, relative to the root folder for the accessioned files
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	IEGMP\Reports\2000\
+
+	Comments
+	
+
+	Origin
+	
+
+
+D1.5 File Format ID
+	Definition
+	Describes the PRONOM unique identifier for the file format
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PRONOM authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	Tiff/6.0
+
+	Comments
+	
+
+	Origin
+	PRONOM
+
+
+D1.6 File Format Name
+
+	Definition
+	Describes the name of the file format
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – PRONOM authority file
+
+	Type
+	Alphanumeric
+
+	Example
+	Tagged Image File Format, Revision 6.0
+
+	Comments
+	
+
+	Origin
+	PRONOM
+
+
+D1.7 File Size
+
+	Definition
+	The physical size of the file in bytes
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Numeric
+
+	Example
+	825605
+
+	Comments
+	
+
+	Origin
+	
+
+
+D1.8 File Creation Date
+
+	Definition
+	The system date on which the file was created
+
+	Mandatory
+	Yes
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-12-05T09:17
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	
+
+
+D2 Fixity
+
+This section describes the fixity method used by the Digital Archive to ensure the integrity of the file. This process is performed automatically, and all elements are system-populated as part of the accession process.
+
+D2.1 Fixity Type
+
+	Definition
+	Describes the technique used to generate the file fixity value
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	MD5 digest algorithm
+
+	Comments
+	
+
+	Origin
+	CfA: Fixity Metadata
+
+
+D2.2 Fixity Method
+
+	Definition
+	Describes the method used to generate the fixity value
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	MD5 Summer version 1.1.0.22
+
+	Comments
+	
+
+	Origin
+	CfA: Fixity Metadata
+
+
+D2.3 Fixity Method Documentation
+
+	Definition
+	Describes a reference to documentation for the fixity method
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	RFC 1321 – The MD5 message digest algorithm (R Rivest, 1992)
+
+	Comments
+	
+
+	Origin
+	CfA: Fixity Metadata
+
+
+D2.4 Fixity Date
+
+	Definition
+	The date on which the fixity value was generated
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-11-05T17:23
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	CfA: Fixity Metadata
+
+
+D2.5 Fixity Value
+
+	Definition
+	Describes the fixity value generated
+
+	Mandatory
+	Y
+
+	Controlled
+	N
+
+	Type
+	Alphanumeric
+
+	Example
+	98478b17d2c116b9822581f967fd6fee
+
+	Comments
+	
+
+	Origin
+	CfA: Fixity Metadata
+
+
+D3 Virus Checking
+
+This section describes the method used to scan the file for viruses upon accession. This process is performed automatically, and all elements are system-populated as part of the accession process. This element sub-set is repeatable within files.
+
+D3.1 Virus Checker ID
+
+	Definition
+	Describes the unique system identifier of the virus checker used
+
+	Mandatory
+	Y
+
+	Controlled
+	Y – system assigned
+
+	Type
+	Numeric
+
+	Example
+	1
+
+	Comments
+	
+
+	Origin
+	
+
+
+D3.2 Virus Checker Name
+
+	Definition
+	Describes the name of the software used to perform the scan
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	Sophos Antivirus v5.0
+
+	Comments
+	
+
+	Origin
+	
+
+
+D3.3 Virus Checker Engine
+
+	Definition
+	Describes the virus scan engine used to perform the scan
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	2.14
+
+	Comments
+	
+
+	Origin
+	
+
+
+D3.4 Virus Definition File
+
+	Definition
+	Describes the full version of the virus definition file used to perform the scan
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Alphanumeric
+
+	Example
+	3.71
+
+	Comments
+	
+
+	Origin
+	
+
+
+D3.5 Scan Date
+
+	Definition
+	The date and time on which the file was virus checked
+
+	Mandatory
+	Y
+
+	Controlled
+	Y
+
+	Type
+	Date
+
+	Example
+	2003-12-11T12:07
+
+	Comments
+	Conforms to ISO 8061
+
+	Origin
+	
+
+
+Type-specific extensions
+
+No type-specific element sets have yet been implemented. However, some draft element sets are given for illustrative purposes. Type-specific extensions may apply to either record or file entities. For example, a website or email which is captured as a record may require some specific metadata elements which will apply irrespective of its manifestation in any specific technical environment. Equally, individual files may require additional descriptive metadata at a technical level. 
+E1 Record Type-Specific Extensions
+
+Extended metadata sub-sets may be required for type-specific information which applies to the informational content and character of a record. The use of these would be triggered depending on values in the Record Type element (B2.9). The following are provided as examples.
+
+E1.1 Website
+
+Original URL
+
+Original Host
+E1.2 Email
+
+Sender Email Address
+
+Recipient Email Address(es)
+
+CC Email Address(es)
+
+BC Email Address(es)
+
+Transmission Date
+
+Subject
+
+Content
+
+Attachments
+
+Note: technical elements such as MIME Version, Content Type and Character Set would form part of a file type-specific extension.
+E2 File Type-Specific Extensions
+
+Extended metadata sub-sets may be required for type-specific information which applies to the technical characteristics of a file. The use of these would be triggered depending on values in the File Format ID element (D1.5). The following are provided as examples.
+
+E2.1 Raster Images
+
+Resolution
+
+Dimensions
+
+Bit Depth
+
+Colour Space
+
+Colour Management
+
+Colour Look-Up Table
+
+Compression
+
+E2.2 Audio/Visual
+
+Audio Sampling Frequency
+
+Duration
+
+Audio Bit Rate
+
+Video Bit Depth
+
+Audio Compression
+
+Video Compression
+
+Encapsulation
+
+Dimensions
+
+Frame Rate
+
+Channels
+
+3 Bibliography
+CfA Preservation Metadata
+
+Brown, A, 2002, Centre for Archaeology Digital Archiving Strategy (Version 2.0), English Heritage
+
+http://www.english-heritage.org.uk/Filestore/archaeology/pdf/das_2.pdf [Viewed 12 December 2003]
+
+CEDARS
+
+Russell, K et al, 2000, Metadata for Digital Preservation: The Cedars Project Outline Specification, Cedars/UKOLN
+http://www.leeds.ac.uk/cedars/colman/metadata/metadataspec.html [Viewed 12 December 2003]
+
+National Library of Australia
+
+Webb, C, 1999, Preservation Metadata for Digital Collections: Exposure Draft, National Library of Australia
+http://www.nla.gov.au/preserve/pmeta.html [Viewed 12 December 2003]
+
+National Library of New Zealand
+
+National Library of New Zealand, 2003, Metadata Standards Framework: Preservation Metadata (Revised)
+http://www.natlib.govt.nz/files/4initiatives_metaschema_revised.pdf [Viewed 12 December 2003]
+
+NEDLIB
+
+Lupovici, C and Masanès, J, 2000, Metadata for Long-Term Preservation, NEDLIB Consortium
+http://www.kb.nl/coop/nedlib/results/D4.2/D4.2.htm [Viewed 12 December 2003]
+
+OCLC/RLG
+
+OCLC/RLG Working Group on Preservation Metadata, 2002, Preservation Metadata and the OAIS Information Model: A Metadata Framework to Support the Preservation of Digital Objects, Online Computer Library Center
+
+http://www.oclc.org/research/projects/pmwg/pm_framework.pdf [Viewed 12 December 2003]
+
+VERS
+Public Record Office Victoria, 2003, PROS 99/007 (Version 2) Specification 2: VERS Metadata Scheme
+http://www.prov.vic.gov.au/vers/standards/pros9907vers2/spec_02/default.htm [Viewed 12 December 2003]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	Page 50 of 50
+
+
+
+_1117301171.doc
+
+
+
